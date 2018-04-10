@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Health Pack
+  - Breakable
+  - NPC
   layers:
   - Default
   - TransparentFX

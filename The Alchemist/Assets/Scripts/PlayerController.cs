@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
     Animator anim;
 
     //For jump
+    [Header("For Jump")]
     public Transform groundCheck;
     public LayerMask whatIsGround;
     public float jumpForce = 700f;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour {
     private bool grounded = false;
 
     //for health/healing (on 'q') 
+    [Header("For heal/helaing (on 'q')")]
     public float startingHealth;
     private float currentHealth;
     public float startingHealthPacks;
@@ -28,7 +30,8 @@ public class PlayerController : MonoBehaviour {
     public ParticleSystem healingEffect;
 
     //melee attack 1 (Binded to "Fire1" which is mouse1 and Ctrl 
-    //Need to add animaator stuff for this attack in the code 
+    [Header("For melee attack 1 (on mouse1 and crtl")]
+            //Need to add animaator stuff for this attack in the code 
     public float meleeAttack1Duration = 0.7f; //CHANGE THIS and just find length of animation maybe
     public float meleeAttack1Damage = 30f;
     public float meleeAttack1Distance = .1f;
@@ -37,9 +40,14 @@ public class PlayerController : MonoBehaviour {
     private Vector2 tempRay; //because idk how to change a direction vector when the character changes the way they are facing
 
     //Projectile (using 'f' for now)
-        //Edit the gravity setting in the bullet rigidbody
+    [Header("For potion throw")]
+         //Edit the gravity setting in the bullet rigidbody
     public GameObject projectilePrefab;
     public float projectileSpeed = 10f;
+
+    //For talking with npcs
+    private bool withNPC = false;
+    private GameObject NPC;
 
     void Start () {
         anim = GetComponent<Animator>();
@@ -129,7 +137,13 @@ public class PlayerController : MonoBehaviour {
                 GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation*Quaternion.Euler(0,180f,0)); // flip the bullet
                 projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, projectileSpeed*2); //negative speed and whatnot to go backwards
             }
-            
+        }
+
+        //Talking with NPCs
+        //THis is for talkign with NPCs
+        if (withNPC && Input.GetButtonDown("Talk"))
+        {
+            Debug.Log(NPC.GetComponent<NPCmanager>().characterSpeak());
         }
     }
 
@@ -149,6 +163,7 @@ public class PlayerController : MonoBehaviour {
 
         }
         */
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -158,6 +173,20 @@ public class PlayerController : MonoBehaviour {
             currentHealthPacks++;
             healthPackCounter.text = currentHealthPacks.ToString();
             Destroy(collision.gameObject);
+        }
+        else if(collision.tag == "NPC")//should be here for determining if the character is in a NPC
+        {
+            withNPC = true;
+            NPC = collision.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "NPC")  //should be here for determining if the character is in a NPC
+        {
+            withNPC = false;
+            NPC = null;
         }
     }
 
