@@ -16,13 +16,13 @@ public class Projectiles : MonoBehaviour {
         {
             return;
         }
-        Debug.Log("the potion has hit something");
+       // Debug.Log("the potion has hit something");
         Collider2D[] tempHit = Physics2D.OverlapCircleAll(transform.position, potionRadius, potionMask, -Mathf.Infinity, Mathf.Infinity);
-        Debug.Log(tempHit.Length);
+       // Debug.Log(tempHit.Length);
 
         for (int i = 0; i < tempHit.Length; i++)
         {
-            Debug.Log(tempHit[i].name);
+            //Debug.Log(tempHit[i].name);
             if (tempHit[i].tag == "Player") 
             {
                 return;
@@ -42,7 +42,7 @@ public class Projectiles : MonoBehaviour {
                 Destroy(tempEffect, tempEffect.GetComponent<ParticleSystem>().main.duration);
             }
             Destroy(gameObject);
-            Debug.Log(other.name);
+           // Debug.Log(other.name);
         }
          
         

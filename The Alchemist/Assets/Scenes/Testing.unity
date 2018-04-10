@@ -574,11 +574,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114976776769120188, guid: cd862fcb7c208f44b83f68e9c12294c1,
-        type: 2}
-      propertyPath: dialogue.Array.size
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4781723642315856, guid: cd862fcb7c208f44b83f68e9c12294c1, type: 2}
       propertyPath: m_LocalPosition.x
       value: 19.687725
@@ -610,31 +605,6 @@ Prefab:
     - target: {fileID: 4781723642315856, guid: cd862fcb7c208f44b83f68e9c12294c1, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114976776769120188, guid: cd862fcb7c208f44b83f68e9c12294c1,
-        type: 2}
-      propertyPath: dialogue.Array.data[1]
-      value: Hey this actually worked 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114976776769120188, guid: cd862fcb7c208f44b83f68e9c12294c1,
-        type: 2}
-      propertyPath: randomizeDialogue
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114976776769120188, guid: cd862fcb7c208f44b83f68e9c12294c1,
-        type: 2}
-      propertyPath: dialogue.Array.data[2]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114976776769120188, guid: cd862fcb7c208f44b83f68e9c12294c1,
-        type: 2}
-      propertyPath: dialogue.Array.data[3]
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114976776769120188, guid: cd862fcb7c208f44b83f68e9c12294c1,
-        type: 2}
-      propertyPath: dialogue.Array.data[4]
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd862fcb7c208f44b83f68e9c12294c1, type: 2}
