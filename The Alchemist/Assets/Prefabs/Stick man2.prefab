@@ -320,6 +320,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1576660612420968, guid: d359a9657b0c028458bbbd59b1bcfb3c,
     type: 2}
   projectileSpeed: 15
+  NPCtext: {fileID: 0}
+  NPCtalkingDelay: 0.1
 --- !u!124 &124712066248608640
 Behaviour:
   m_ObjectHideFlags: 1

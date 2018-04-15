@@ -1,15 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NPCmanager : MonoBehaviour {
+public class NPCManager : MonoBehaviour {
 
     public string[] dialogue;
     public bool randomizeDialogue;
+    public Image NPCHead;
 
     private int dialogueCounter = 0; // if not going to randomize
 
-
+    private void Start()
+    {
+        NPCHead.enabled = false;
+    }
     public string characterSpeak()
     {
         string tempDialogue = "code didn't work sorry";

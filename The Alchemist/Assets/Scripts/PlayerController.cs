@@ -46,14 +46,23 @@ public class PlayerController : MonoBehaviour {
     public float projectileSpeed = 10f;
 
     //For talking with npcs
+    [Header("For talking with NPCs (on 'e')")]
+    public Text NPCtext;
     private bool withNPC = false;
     private GameObject NPC;
+    public Image NPCNextDialogueAvaible; //THis will show when the player can press "e" to get the next piece of dialogue
+    private Image tempNPCHead; //i use this is 2 seperate coroutines so i need to instatiate the variable here
+    private bool NPCtalking = false;
+    private string NPCphrase;   //going to use this as a temp string to send into a coroutine to make the text look like it's writting itself
+    public float NPCtalkingDelay = .2f;
+    [Tooltip("This is the amount of time it will wait after a player leaves an npc to close out of the dialogue box")]public float NPCwalkAwayText = 4f;
 
     void Start () {
         anim = GetComponent<Animator>();
         currentHealth = startingHealth;
         currentHealthPacks = startingHealthPacks;
         healthPackCounter.text = currentHealthPacks.ToString();
+        NPCNextDialogueAvaible.enabled = false;
 	}
 	
 
@@ -88,7 +97,7 @@ public class PlayerController : MonoBehaviour {
         //Healing
         if(currentHealthPacks > 0 && Input.GetButtonDown("Heal"))
         {
-            takeDamage(healAmount * -1);
+            playerTakeDamage(healAmount * -1);
             currentHealthPacks--;
             //Need to update canvas stuff here as well
             healthPackCounter.text = currentHealthPacks.ToString();
@@ -143,8 +152,75 @@ public class PlayerController : MonoBehaviour {
         //THis is for talkign with NPCs
         if (withNPC && Input.GetButtonDown("Talk"))
         {
-            Debug.Log(NPC.GetComponent<NPCmanager>().characterSpeak());
+            if (!NPCtalking)
+            {
+                NPCtext.text = null;//reseting the dialogue box
+                NPCtalking = true;
+                NPCphrase = NPC.GetComponent<NPCManager>().characterSpeak();
+                StartCoroutine(NPCtextDisplay());
+            }
         }
+    }
+
+    private IEnumerator NPCtextDisplay()
+    {  
+        int characterPlace = 0;
+        char[] tempChar = NPCphrase.ToCharArray();
+        tempNPCHead = NPC.GetComponent<NPCManager>().NPCHead; //need to assign it to a variable because i null out the 'NPC' gameobject when the player leaves the collider for the NPC
+        tempNPCHead.enabled = true;
+
+        if (NPCNextDialogueAvaible.enabled)//once the player presses for the next dialogue, need to disable the visual queue that says they can press it again immediately
+        {
+            NPCNextDialogueAvaible.enabled = false;
+        }
+
+        while (characterPlace < tempChar.Length) // keep going until the character array is fully shown
+        {
+            NPCtext.text += tempChar[characterPlace];
+            characterPlace++;
+            yield return new WaitForSeconds(NPCtalkingDelay);
+        }
+
+        if (!withNPC)
+        {
+            //if the player is no longer near the NPC when it finishes the dialogue, then wait the specified amount of seconds (default 4)the disable the NPC head image and text box
+            //yield return new WaitForSeconds(NPCwalkAwayText);
+            //Need to make custom WaitForSeconds so if the player is out of the NPC when the text scroll ends, and they reenter the NPC it will show that they can Continue the dialogue
+            float tempWaitSecondsGoal = Time.time + NPCwalkAwayText;
+            while(Time.time < tempWaitSecondsGoal && !withNPC)
+            {
+                yield return null;
+            }
+
+            if (!withNPC) //If you are still not with the NPC then disable everything
+            {
+                tempNPCHead.enabled = false;
+                NPCtext.text = null;
+                NPCNextDialogueAvaible.enabled = false;
+                yield return new WaitForEndOfFrame();
+            }
+
+        }
+
+        if (withNPC) // need to make sure the player is still with the NPC
+        {
+            NPCNextDialogueAvaible.enabled = true;
+        }
+        
+        NPCtalking = false; //PUtting this after the if statment just incase of really rare edge cases
+
+    }
+
+    private IEnumerator NPCleavingTextDisable() //This function is for if the player walks away from an NPC and the NPC wasn't talking. THen it will disable the text box thing
+    {
+        NPCNextDialogueAvaible.enabled = false; // if the player leaves the NPC then they can't get the next dialogue 
+        yield return new WaitForSeconds(NPCwalkAwayText);
+        if (!withNPC && !NPCtalking)    //Avoiding edge cases
+        {
+            tempNPCHead.enabled = false;
+            NPCtext.text = null;
+        }
+        
     }
 
     //This is no longer needed but i am going to keep it incase the raycast bugs out 
@@ -178,6 +254,11 @@ public class PlayerController : MonoBehaviour {
         {
             withNPC = true;
             NPC = collision.gameObject;
+
+            if (!NPCtalking)
+            {
+                NPCNextDialogueAvaible.enabled = true;
+            }
         }
     }
 
@@ -187,6 +268,10 @@ public class PlayerController : MonoBehaviour {
         {
             withNPC = false;
             NPC = null;
+            if (!NPCtalking)
+            {
+                StartCoroutine(NPCleavingTextDisable()); //if the player leaves the collider and the NPC is no longer talking, it will wait (have to do this before i null out the NPC game object
+            }
         }
     }
 
@@ -199,7 +284,7 @@ public class PlayerController : MonoBehaviour {
 
     }
 
-    private void takeDamage(float damage)
+    public void playerTakeDamage(float damage)
     {
         currentHealth -= damage;
 
