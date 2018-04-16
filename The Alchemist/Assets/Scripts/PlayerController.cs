@@ -298,5 +298,6 @@ public class PlayerController : MonoBehaviour {
     private void onDeath()
     {
         //This is where we will put what happens when the player dies
+        Debug.Log("THe player has died :(");
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class dragonFollow : MonoBehaviour {
     [Header("For dragon following")]
@@ -17,8 +18,52 @@ public class dragonFollow : MonoBehaviour {
     private bool grounded;
     private bool facingRight;
 
+    [Header("For The Hunger")]
+    public Slider dragonHungerMeter;
+    public Image sliderFIllImage;
+    public float initialHungerTimer = 60f;
+    public float percentageToFlash = .25f;
+    public float flashSpeed = 0.5f;
+    private bool dragonHungry;
+    private float currentHungerTimer;
+    private bool isFlashing;
 
+    public void Start()
+    {
+        //for the dragon hungry mechanic
+        currentHungerTimer = initialHungerTimer;
+        dragonHungerMeter.maxValue = initialHungerTimer;
+        dragonHungry = true;
+    }
+    public void Update()
+    {
+        //For the hunger
+        if(dragonHungry == true)
+        {
 
+            dragonHungerMeter.value = currentHungerTimer;
+            currentHungerTimer -= Time.deltaTime;
+        }
+        
+        if(currentHungerTimer / initialHungerTimer <= percentageToFlash && !isFlashing)
+        {
+            isFlashing = true;
+            StartCoroutine(FlashHungerTimer());
+        }
+    }
+
+    private IEnumerator FlashHungerTimer()
+    {
+        while(currentHungerTimer / initialHungerTimer <= percentageToFlash)
+        {
+            //dragonTarget.Find("Fill").GetComponent<Image>().enabled = !dragonTarget.Find("Fill").GetComponent<Image>().IsActive();
+            sliderFIllImage.enabled = !sliderFIllImage.IsActive();
+            yield return new WaitForSeconds(flashSpeed);
+        }
+        isFlashing = false;
+    }
+
+    //This is for dragon following player
     // https://docs.unity3d.com/ScriptReference/Vector3.MoveTowards.html
     private void FixedUpdate()
     {
