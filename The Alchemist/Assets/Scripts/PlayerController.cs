@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour {
     //most of the core code is from https://unity3d.com/learn/tutorials/topics/2d-game-creation/2d-character-controllers?playlist=17093
     public float maxSpeed = 10f;
-    bool facingRight = true;
+    bool facingRight = true; //This really needed to be called facing left or something (everything is backwards)
 
     Animator anim;
 
@@ -78,11 +78,11 @@ public class PlayerController : MonoBehaviour {
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
 
-        if(move > 0 && !facingRight)
+        if(move < 0 && !facingRight)    //Fliped the greater than or less than statments because everything is backwards
         {
             flip();
         }
-        else if(move <0 && facingRight)
+        else if(move > 0 && facingRight)
         {
             flip();
         }
@@ -135,12 +135,12 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButtonDown("Shoot"))
         {
             //There is a cleaner way to do this but it works
-            if (facingRight)
+            if (!facingRight) //Need to inverse the bool statments
             {
                 GameObject projectileClone = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
                 projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, projectileSpeed*2);
             }
-            else if (!facingRight)
+            else if (facingRight)
             {
 
                 GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation*Quaternion.Euler(0,180f,0)); // flip the bullet
