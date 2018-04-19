@@ -134,6 +134,7 @@ public class PlayerController : MonoBehaviour {
         //Projectile/ shooting
         if (Input.GetButtonDown("Shoot"))
         {
+            anim.SetTrigger("Throw Potion");
             //There is a cleaner way to do this but it works
             if (!facingRight) //Need to inverse the bool statments
             {
@@ -146,6 +147,7 @@ public class PlayerController : MonoBehaviour {
                 GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation*Quaternion.Euler(0,180f,0)); // flip the bullet
                 projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, projectileSpeed*2); //negative speed and whatnot to go backwards
             }
+            //anim.ResetTrigger("Throw Potion");
         }
 
         //Talking with NPCs
