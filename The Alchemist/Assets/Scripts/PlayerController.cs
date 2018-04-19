@@ -107,12 +107,13 @@ public class PlayerController : MonoBehaviour {
         //attempting melee1 again
         if (Input.GetButtonDown("Fire1") && (Time.time > nextAttack))
         {
+            anim.SetTrigger("Melee Attack");
             //Stupid vector thing idk how to fix without this if statement(idk how to make a direction vector change to the direction of the character
-            if (facingRight)
+            if (!facingRight)//need to inverse bool statements because of model is wrong way of what i though
             {
                 tempRay = new Vector2(1, 0);
             }
-            else if (!facingRight)
+            else if (facingRight)
             {
                 tempRay = new Vector2(-1, 0);
             }
