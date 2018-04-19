@@ -9,6 +9,7 @@ public class Projectiles : MonoBehaviour {
     public GameObject potionHitBreakable;
     public float potionRadius = 2f;
     public LayerMask potionMask;
+    public AudioSource potionBreak;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,6 +17,8 @@ public class Projectiles : MonoBehaviour {
         {
             return;
         }
+        //Play audio
+        potionBreak.Play();
        // Debug.Log("the potion has hit something");
         Collider2D[] tempHit = Physics2D.OverlapCircleAll(transform.position, potionRadius, potionMask, -Mathf.Infinity, Mathf.Infinity);
        // Debug.Log(tempHit.Length);

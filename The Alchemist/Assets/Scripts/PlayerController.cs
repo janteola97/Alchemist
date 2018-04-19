@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour {
     public ParticleSystem melee1HitEffect;
     private float nextAttack = 0;
     private Vector2 tempRay; //because idk how to change a direction vector when the character changes the way they are facing
+    public AudioSource meleeAttackSound;
 
     //Projectile (using 'f' for now)
     [Header("For potion throw")]
@@ -108,6 +109,7 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButtonDown("Fire1") && (Time.time > nextAttack))
         {
             anim.SetTrigger("Melee Attack");
+            meleeAttackSound.Play();
             //Stupid vector thing idk how to fix without this if statement(idk how to make a direction vector change to the direction of the character
             if (!facingRight)//need to inverse bool statements because of model is wrong way of what i though
             {
