@@ -185,11 +185,11 @@ MonoBehaviour:
     type: 2}
   potionHitWall: {fileID: 1489661732834022, guid: 64f2b6351a8160144b04b64200f758ff,
     type: 2}
-  potionHitBreakable: {fileID: 0}
   potionRadius: 2
   potionMask:
     serializedVersion: 2
     m_Bits: 4294967039
+  potionHitBreakable: {fileID: 0}
   potionBreak: {fileID: 82051151524659062}
 --- !u!212 &212163988315748780
 SpriteRenderer:

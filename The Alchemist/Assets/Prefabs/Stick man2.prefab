@@ -403,8 +403,8 @@ MonoBehaviour:
     type: 2}
   projectileSpeed: 15
   NPCtext: {fileID: 0}
-  NPCNextDialogueAvaible: {fileID: 0}
   NPCtalkingDelay: 0.1
+  NPCNextDialogueAvaible: {fileID: 0}
   NPCwalkAwayText: 4
 --- !u!124 &124712066248608640
 Behaviour:
