@@ -1591,11 +1591,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
-        type: 2}
-      propertyPath: NPCHead
-      value: 
-      objectReference: {fileID: 831025377}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad2c01daa5426414e8c020dd58fda743, type: 2}
   m_IsPrefabParent: 0
@@ -1923,7 +1918,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

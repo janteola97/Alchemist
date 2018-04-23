@@ -1,9 +1,28 @@
 fileFormatVersion: 2
 guid: 30f61fbd5fe6f6e4ab38b19d8fff9dad
-timeCreated: 1523983924
+timeCreated: 1524160045
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Cave Barrier Destroyed_0
+    21300002: Cave Barrier Destroyed_1
+    21300004: Cave Barrier Destroyed_2
+    21300006: Cave Barrier Destroyed_3
+    21300008: Cave Barrier Destroyed_4
+    21300010: Cave Barrier Destroyed_5
+    21300012: Cave Barrier Destroyed_6
+    21300014: Cave Barrier Destroyed_7
+    21300016: Cave Barrier Destroyed_8
+    21300018: Cave Barrier Destroyed_9
+    21300020: Cave Barrier Destroyed_10
+    21300022: Cave Barrier Destroyed_11
+    21300024: Cave Barrier Destroyed_12
+    21300026: Cave Barrier Destroyed_13
+    21300028: Cave Barrier Destroyed_14
+    21300030: Cave Barrier Destroyed_15
+    21300032: Cave Barrier Destroyed_16
+    21300034: Cave Barrier Destroyed_17
+    21300036: Cave Barrier Destroyed_18
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +79,37 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -68,7 +117,273 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 231
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 231
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 231
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 231
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 154
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 154
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 154
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 154
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 77
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 77
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 77
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 77
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cave Barrier Destroyed_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
