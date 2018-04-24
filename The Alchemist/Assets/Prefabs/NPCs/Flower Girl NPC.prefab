@@ -96,7 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c03edfcb62be3fc4a8931f0ace030f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - 
+  - 
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
 --- !u!212 &212532391315781176
