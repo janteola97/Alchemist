@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour {
     public Text NPCtext;
     private bool withNPC = false;
     private GameObject NPC;
-    public Image NPCNextDialogueAvaible; //THis will show when the player can press "e" to get the next piece of dialogue
+    private Image NPCNextDialogueAvaible; //THis will show when the player can press "e" to get the next piece of dialogue
     private Image tempNPCHead; //i use this is 2 seperate coroutines so i need to instatiate the variable here
     private bool NPCtalking = false;
     private string NPCphrase;   //going to use this as a temp string to send into a coroutine to make the text look like it's writting itself
@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour {
         currentHealth = startingHealth;
         currentHealthPacks = startingHealthPacks;
         healthPackCounter.text = currentHealthPacks.ToString();
-        NPCNextDialogueAvaible.enabled = false;
+        //NPCNextDialogueAvaible.enabled = false;   // Doing this in the NPCNManager now
 	}
 	
 
@@ -259,6 +259,7 @@ public class PlayerController : MonoBehaviour {
         {
             withNPC = true;
             NPC = collision.gameObject;
+            NPCNextDialogueAvaible = NPC.GetComponent<NPCManager>().NPCRdyToTalk;
 
             if (!NPCtalking)
             {

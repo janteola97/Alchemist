@@ -5,10 +5,12 @@ using System;
 using UnityEngine.UI;
 
 public class dragonFollow : MonoBehaviour {
+    Animator anim;
     [Header("For dragon following")]
     public Transform dragonTarget;
     public float dragonSpeed = 5f;
     public float distanceFromPlayer;
+    private Vector3 lastPosition; // for dragon animator
 
     [Header("For Jumping")]//taking this from the playerController
     public Transform dragonGroundCheck;
@@ -30,10 +32,13 @@ public class dragonFollow : MonoBehaviour {
 
     public void Start()
     {
+        anim = GetComponent<Animator>(); // for animator
         //for the dragon hungry mechanic
         currentHungerTimer = initialHungerTimer;
         dragonHungerMeter.maxValue = initialHungerTimer;
         dragonHungry = true;
+
+        lastPosition = Vector3.zero;    //For dragon animator
     }
     public void Update()
     {
@@ -65,9 +70,16 @@ public class dragonFollow : MonoBehaviour {
 
     //This is for dragon following player
     // https://docs.unity3d.com/ScriptReference/Vector3.MoveTowards.html
+    //for the speed calculation
     private void FixedUpdate()
     {
         float step = dragonSpeed * Time.deltaTime;
+        //for animator
+        float speed = (transform.position - lastPosition).magnitude;
+        lastPosition = transform.position;
+        anim.SetFloat("Speed", Mathf.Abs(speed));
+        //Debug.Log(speed);
+
         grounded = Physics2D.OverlapCircle(dragonGroundCheck.position, groundRadius, whatIsGround);
 
         if (Vector3.Distance(transform.position, dragonTarget.position) > distanceFromPlayer){

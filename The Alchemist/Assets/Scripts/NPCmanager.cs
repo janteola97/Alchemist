@@ -8,12 +8,14 @@ public class NPCManager : MonoBehaviour {
     public string[] dialogue;
     public bool randomizeDialogue;
     public Image NPCHead;
+    public Image NPCRdyToTalk;
 
     private int dialogueCounter = 0; // if not going to randomize
 
     private void Start()
     {
         NPCHead.enabled = false;
+        NPCRdyToTalk.enabled = false;
     }
     public string characterSpeak()
     {
