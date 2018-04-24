@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 61894241645710206}
   - component: {fileID: 95845023506759504}
   - component: {fileID: 114431070833999806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flower Girl NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   - 
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
+  NPCRdyToTalk: {fileID: 0}
 --- !u!212 &212532391315781176
 SpriteRenderer:
   m_ObjectHideFlags: 1

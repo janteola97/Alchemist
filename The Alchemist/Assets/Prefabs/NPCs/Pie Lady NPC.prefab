@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 61245814454662514}
   - component: {fileID: 95898451949098938}
   - component: {fileID: 114740823986081368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pie Lady NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,7 @@ MonoBehaviour:
   dialogue: []
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
+  NPCRdyToTalk: {fileID: 0}
 --- !u!212 &212010316845993698
 SpriteRenderer:
   m_ObjectHideFlags: 1
