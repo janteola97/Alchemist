@@ -2103,6 +2103,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4559564574419710, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
       propertyPath: m_LocalPosition.x
       value: 40.2
@@ -2166,6 +2171,26 @@ Prefab:
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.data[0]
+      value: My apple pies are the best in town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.data[1]
+      value: Pies are good for the soul.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.data[2]
+      value: I infused them with special ingredients to heal injuries.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.data[3]
+      value: Glad my pies were able to help you on your journey!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
@@ -6314,6 +6339,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
+        type: 2}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4662748233649858, guid: b55afc6ed039c7641905796f7ef14f11, type: 2}
       propertyPath: m_LocalPosition.x
       value: 11.08
@@ -6362,6 +6392,21 @@ Prefab:
     - target: {fileID: 4662748233649858, guid: b55afc6ed039c7641905796f7ef14f11, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.5441399
+      objectReference: {fileID: 0}
+    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
+        type: 2}
+      propertyPath: dialogue.Array.data[0]
+      value: Need any plants today?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
+        type: 2}
+      propertyPath: dialogue.Array.data[1]
+      value: Be careful in those forest outside the village.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
+        type: 2}
+      propertyPath: dialogue.Array.data[2]
+      value: q
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b55afc6ed039c7641905796f7ef14f11, type: 2}
@@ -9455,6 +9500,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4559564574419710, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
       propertyPath: m_LocalPosition.x
       value: 69.19
@@ -9538,6 +9588,11 @@ Prefab:
         type: 2}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
+        type: 2}
+      propertyPath: dialogue.Array.data[0]
+      value: Thanks for healing my son
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
