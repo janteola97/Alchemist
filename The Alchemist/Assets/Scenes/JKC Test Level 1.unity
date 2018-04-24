@@ -2103,11 +2103,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4559564574419710, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
       propertyPath: m_LocalPosition.x
       value: 40.2
@@ -2171,26 +2166,6 @@ Prefab:
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.data[0]
-      value: My apple pies are the best in town!
-      objectReference: {fileID: 0}
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.data[1]
-      value: Pies are good for the soul.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.data[2]
-      value: I infused them with special ingredients to heal injuries.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.data[3]
-      value: Glad my pies were able to help you on your journey!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
@@ -6339,11 +6314,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
-        type: 2}
-      propertyPath: dialogue.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4662748233649858, guid: b55afc6ed039c7641905796f7ef14f11, type: 2}
       propertyPath: m_LocalPosition.x
       value: 11.08
@@ -6392,21 +6362,6 @@ Prefab:
     - target: {fileID: 4662748233649858, guid: b55afc6ed039c7641905796f7ef14f11, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.5441399
-      objectReference: {fileID: 0}
-    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
-        type: 2}
-      propertyPath: dialogue.Array.data[0]
-      value: Need any plants today?
-      objectReference: {fileID: 0}
-    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
-        type: 2}
-      propertyPath: dialogue.Array.data[1]
-      value: Be careful in those forest outside the village.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114704641725039070, guid: b55afc6ed039c7641905796f7ef14f11,
-        type: 2}
-      propertyPath: dialogue.Array.data[2]
-      value: q
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b55afc6ed039c7641905796f7ef14f11, type: 2}
@@ -9574,11 +9529,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4559564574419710, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
       propertyPath: m_LocalPosition.x
       value: 69.19
@@ -9663,19 +9613,11 @@ Prefab:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.46
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 95069908058079806, guid: 3519776aadf351c4ca4608c73a343c96,
         type: 2}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 750be2731cc823d4cb8ecb0654274e23, type: 2}
-=======
-    - target: {fileID: 114167621951672022, guid: 3519776aadf351c4ca4608c73a343c96,
-        type: 2}
-      propertyPath: dialogue.Array.data[0]
-      value: Thanks for healing my son
-      objectReference: {fileID: 0}
->>>>>>> 38b388210ff88793413985131bdb4407534aa938
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3519776aadf351c4ca4608c73a343c96, type: 2}
   m_IsPrefabParent: 0
@@ -10512,7 +10454,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1891471823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25, y: -0.7, z: 0}
+  m_LocalPosition: {x: -37.9, y: -0.7, z: 0}
   m_LocalScale: {x: 16.72649, y: 16.72648, z: 16.72648}
   m_Children:
   - {fileID: 1712202455}
@@ -10562,7 +10504,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 2e494dac25ead574ea730bb589f31abc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
