@@ -514,6 +514,12 @@ Prefab:
       propertyPath: m_Name
       value: Evil stick man (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 212983792601989124, guid: 686d40419880c3945905e850342f2497,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 96b52c24c2f8b3546952dbdbefeaaa4e,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 686d40419880c3945905e850342f2497, type: 2}
   m_IsPrefabParent: 0
@@ -2240,6 +2246,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114673514930568056, guid: f3ea44421812c1e4ebe7debd6c3c1ac2,
+        type: 2}
+      propertyPath: NPCHead
+      value: 
+      objectReference: {fileID: 831025377}
     - target: {fileID: 114128680485629894, guid: f3ea44421812c1e4ebe7debd6c3c1ac2,
         type: 2}
       propertyPath: waypoints.Array.data[0]
@@ -2250,11 +2261,6 @@ Prefab:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 372822366}
-    - target: {fileID: 114673514930568056, guid: f3ea44421812c1e4ebe7debd6c3c1ac2,
-        type: 2}
-      propertyPath: NPCHead
-      value: 
-      objectReference: {fileID: 831025377}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3ea44421812c1e4ebe7debd6c3c1ac2, type: 2}
   m_IsPrefabParent: 0
@@ -3654,6 +3660,11 @@ Prefab:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 354053279}
+    - target: {fileID: 114371633997027132, guid: 8af530d96ecb49c4ab20fd6380dffb58,
+        type: 2}
+      propertyPath: meleeAttack1Knockback
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8af530d96ecb49c4ab20fd6380dffb58, type: 2}
   m_IsPrefabParent: 0

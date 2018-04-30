@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour {
     public float meleeAttack1Duration = 0.7f; //CHANGE THIS and just find length of animation maybe
     public float meleeAttack1Damage = 30f;
     public float meleeAttack1Distance = .1f;
+    public float meleeAttack1Knockback = 5f;
     public ParticleSystem melee1HitEffect;
     private float nextAttack = 0;
     private Vector2 tempRay; //because idk how to change a direction vector when the character changes the way they are facing
@@ -155,6 +156,8 @@ public class PlayerController : MonoBehaviour {
                     {
                         melee1Detect[i].transform.GetComponent<EnemyHealth>().enemyTakeDamage(meleeAttack1Damage);
                         melee1HitEffect.Play();
+                        //Tried to make the melee attack knockback the enemy but kinda doesn't work on the flying enemy because of how i coded movement(i think)
+                        //melee1Detect[i].transform.GetComponent<Rigidbody2D>().AddForce(transform.right * meleeAttack1Knockback);
                     }
                 }
             }
@@ -166,6 +169,7 @@ public class PlayerController : MonoBehaviour {
                 {
                     anim.SetTrigger("Throw Potion");
                     //There is a cleaner way to do this but it works
+                    //It changes the vector and flips the x scale of the bullet depending on where the player is facing
                     if (!facingRight) //Need to inverse the bool statments
                     {
                         GameObject projectileClone = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
