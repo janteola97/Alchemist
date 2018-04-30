@@ -64,6 +64,12 @@ public class PlayerController : MonoBehaviour {
     public float NPCtalkingDelay = .2f;
     [Tooltip("This is the amount of time it will wait after a player leaves an npc to close out of the dialogue box")]public float NPCwalkAwayText = 4f;
 
+    //For pause menu (IMPORTANT****- i disabled the checkmark in the Event System in order for this to work)
+    //reference code: https://answers.unity.com/questions/171492/how-to-make-a-pause-menu-in-c.html
+    [Header("For Pause Menu")]
+    [Tooltip("The whole Canvas")]public Canvas pauseMenu;
+    private bool isPaused;
+
     void Start () {
         anim = GetComponent<Animator>();
         currentHealth = startingHealth;
@@ -97,107 +103,121 @@ public class PlayerController : MonoBehaviour {
 
      void Update()
     {
-        if (grounded && Input.GetButtonDown("Jump")){
-            anim.SetBool("Grounded", false);
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
-        }
-        //Healing
-        if(currentHealthPacks > 0 && Input.GetButtonDown("Heal"))
+        
+        //Avoids game inputs while paused
+        //There is a better way to do this but i can't code
+        if (!isPaused)
         {
-            playerTakeDamage(healAmount * -1);
-            currentHealthPacks--;
-            //Need to update canvas stuff here as well
-            healthPackCounter.text = currentHealthPacks.ToString();
-            healingEffect.Play();
-        }
-
-        //attempting melee1 again
-        if (Input.GetButtonDown("Fire1") && (Time.time > nextAttack))
-        {
-            anim.SetTrigger("Melee Attack");
-            meleeAttackSound.Play();
-            //Stupid vector thing idk how to fix without this if statement(idk how to make a direction vector change to the direction of the character
-            if (!facingRight)//need to inverse bool statements because of model is wrong way of what i though
+            //Pause Menu ( leave this outside the total if statment if you want to use 'Esc' to leave the pause menu aswell
+            if (Input.GetButtonDown("Pause"))
             {
-                tempRay = new Vector2(1, 0);
-            }
-            else if (facingRight)
-            {
-                tempRay = new Vector2(-1, 0);
+                togglePause();
             }
 
-            nextAttack = Time.time + meleeAttack1Duration;
-            RaycastHit2D[] melee1Detect = Physics2D.RaycastAll(transform.position, tempRay, meleeAttack1Distance); //Need array in case of multiple enemies hit at once
-
-            for(int i = 0; i <melee1Detect.Length; i++)
+            if (grounded && Input.GetButtonDown("Jump") && !isPaused)
             {
-                //find the tags here
-                if(melee1Detect[i].transform.tag == "Enemy")
+                anim.SetBool("Grounded", false);
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+            }
+
+            //Healing
+            if (currentHealthPacks > 0 && Input.GetButtonDown("Heal"))
+            {
+                playerTakeDamage(healAmount * -1);
+                currentHealthPacks--;
+                //Need to update canvas stuff here as well
+                healthPackCounter.text = currentHealthPacks.ToString();
+                healingEffect.Play();
+            }
+
+            //attempting melee1 again
+            if (Input.GetButtonDown("Fire1") && (Time.time > nextAttack))
+            {
+                anim.SetTrigger("Melee Attack");
+                meleeAttackSound.Play();
+                //Stupid vector thing idk how to fix without this if statement(idk how to make a direction vector change to the direction of the character
+                if (!facingRight)//need to inverse bool statements because of model is wrong way of what i though
                 {
-                    melee1Detect[i].transform.GetComponent<EnemyHealth>().enemyTakeDamage(meleeAttack1Damage);
-                    melee1HitEffect.Play();
-                } 
-            }
-        }
-
-        //Projectile/ shooting
-        if (Input.GetButtonDown("Shoot"))
-        {
-            if(potionsAvailable > 0)
-            {
-                anim.SetTrigger("Throw Potion");
-                //There is a cleaner way to do this but it works
-                if (!facingRight) //Need to inverse the bool statments
-                {
-                    GameObject projectileClone = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-                    projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, projectileSpeed * 2);
+                    tempRay = new Vector2(1, 0);
                 }
                 else if (facingRight)
                 {
-
-                    GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation * Quaternion.Euler(0, 180f, 0)); // flip the bullet
-                    projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, projectileSpeed * 2); //negative speed and whatnot to go backwards
-                }
-                //anim.ResetTrigger("Throw Potion");
-                potionsAvailable--;
-                if (!potionRechargeRunning) // if the coroutine isn't running, then start it up
-                {
-                    StartCoroutine(potionRecharge());
+                    tempRay = new Vector2(-1, 0);
                 }
 
-                //Update canvas for potions
-                for (int i = 0; i < potionImages.Length; i++) // will enable the potion iamges when it is useable 
+                nextAttack = Time.time + meleeAttack1Duration;
+                RaycastHit2D[] melee1Detect = Physics2D.RaycastAll(transform.position, tempRay, meleeAttack1Distance); //Need array in case of multiple enemies hit at once
+
+                for (int i = 0; i < melee1Detect.Length; i++)
                 {
-                    if (i < (potionsAvailable))
-                    {     //Have to subtract 1 because of array starting at 0
-                        potionImages[i].enabled = true;
-                    }
-                    else
+                    //find the tags here
+                    if (melee1Detect[i].transform.tag == "Enemy")
                     {
-                        potionImages[i].enabled = false;
+                        melee1Detect[i].transform.GetComponent<EnemyHealth>().enemyTakeDamage(meleeAttack1Damage);
+                        melee1HitEffect.Play();
                     }
                 }
             }
-            else
-            {
-                //THis happens when there are no potions ready os it will just play an error sound
-                potionNotReady.Play();
-            }
-            
-        }
 
-        //Talking with NPCs
-        //THis is for talkign with NPCs
-        if (withNPC && Input.GetButtonDown("Talk"))
-        {
-            if (!NPCtalking)
+            //Projectile/ shooting
+            if (Input.GetButtonDown("Shoot"))
             {
-                NPCtext.text = null;//reseting the dialogue box
-                NPCtalking = true;
-                NPCphrase = NPC.GetComponent<NPCManager>().characterSpeak();
-                StartCoroutine(NPCtextDisplay());
+                if (potionsAvailable > 0)
+                {
+                    anim.SetTrigger("Throw Potion");
+                    //There is a cleaner way to do this but it works
+                    if (!facingRight) //Need to inverse the bool statments
+                    {
+                        GameObject projectileClone = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+                        projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, projectileSpeed * 2);
+                    }
+                    else if (facingRight)
+                    {
+
+                        GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation * Quaternion.Euler(0, 180f, 0)); // flip the bullet
+                        projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, projectileSpeed * 2); //negative speed and whatnot to go backwards
+                    }
+                    //anim.ResetTrigger("Throw Potion");
+                    potionsAvailable--;
+                    if (!potionRechargeRunning) // if the coroutine isn't running, then start it up
+                    {
+                        StartCoroutine(potionRecharge());
+                    }
+
+                    //Update canvas for potions
+                    for (int i = 0; i < potionImages.Length; i++) // will enable the potion iamges when it is useable 
+                    {
+                        if (i < (potionsAvailable))
+                        {     //Have to subtract 1 because of array starting at 0
+                            potionImages[i].enabled = true;
+                        }
+                        else
+                        {
+                            potionImages[i].enabled = false;
+                        }
+                    }
+                }
+                else
+                {
+                    //THis happens when there are no potions ready os it will just play an error sound
+                    potionNotReady.Play();
+                }
+
             }
-        }
+
+            //Talking with NPCs
+            //THis is for talkign with NPCs
+            if (withNPC && Input.GetButtonDown("Talk"))
+            {
+                if (!NPCtalking)
+                {
+                    NPCtext.text = null;//reseting the dialogue box
+                    NPCtalking = true;
+                    NPCphrase = NPC.GetComponent<NPCManager>().characterSpeak();
+                    StartCoroutine(NPCtextDisplay());
+                }
+            }
+        }       
     }
 
     private IEnumerator potionRecharge()
@@ -353,6 +373,23 @@ public class PlayerController : MonoBehaviour {
         {
             dead = true;
             onDeath();
+        }
+    }
+
+    public void togglePause()
+    {
+        //Toggles between the game being paused with the menu showing and no being paused and menu not being showed
+        if (Time.timeScale == 0f)
+        {
+            isPaused = false;
+            pauseMenu.enabled = false;
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            isPaused = true;
+            pauseMenu.enabled = true;
+            Time.timeScale = 0f;
         }
     }
 
