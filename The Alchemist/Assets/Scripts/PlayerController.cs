@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
 
     //melee attack 1 (Binded to "Fire1" which is mouse1 and Ctrl 
     [Header("For melee attack 1 (on mouse1 and crtl")]
-            //Need to add animaator stuff for this attack in the code 
+    //Need to add animaator stuff for this attack in the code 
     public float meleeAttack1Duration = 0.7f; //CHANGE THIS and just find length of animation maybe
     public float meleeAttack1Damage = 30f;
     public float meleeAttack1Distance = .1f;
@@ -42,9 +42,15 @@ public class PlayerController : MonoBehaviour {
 
     //Projectile (using 'f' for now)
     [Header("For potion throw")]
-         //Edit the gravity setting in the bullet rigidbody
+    //Edit the gravity setting in the bullet rigidbody
     public GameObject projectilePrefab;
     public float projectileSpeed = 10f;
+    public Image[] potionImages;
+    public float potionRechargeSec = 10f;
+    public AudioSource potionReady;
+    public AudioSource potionNotReady;
+    private int potionsAvailable = 3;
+    private bool potionRechargeRunning = false;
 
     //For talking with npcs
     [Header("For talking with NPCs (on 'e')")]
@@ -137,20 +143,47 @@ public class PlayerController : MonoBehaviour {
         //Projectile/ shooting
         if (Input.GetButtonDown("Shoot"))
         {
-            anim.SetTrigger("Throw Potion");
-            //There is a cleaner way to do this but it works
-            if (!facingRight) //Need to inverse the bool statments
+            if(potionsAvailable > 0)
             {
-                GameObject projectileClone = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-                projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, projectileSpeed*2);
-            }
-            else if (facingRight)
-            {
+                anim.SetTrigger("Throw Potion");
+                //There is a cleaner way to do this but it works
+                if (!facingRight) //Need to inverse the bool statments
+                {
+                    GameObject projectileClone = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+                    projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, projectileSpeed * 2);
+                }
+                else if (facingRight)
+                {
 
-                GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation*Quaternion.Euler(0,180f,0)); // flip the bullet
-                projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, projectileSpeed*2); //negative speed and whatnot to go backwards
+                    GameObject projectileClone = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation * Quaternion.Euler(0, 180f, 0)); // flip the bullet
+                    projectileClone.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, projectileSpeed * 2); //negative speed and whatnot to go backwards
+                }
+                //anim.ResetTrigger("Throw Potion");
+                potionsAvailable--;
+                if (!potionRechargeRunning) // if the coroutine isn't running, then start it up
+                {
+                    StartCoroutine(potionRecharge());
+                }
+
+                //Update canvas for potions
+                for (int i = 0; i < potionImages.Length; i++) // will enable the potion iamges when it is useable 
+                {
+                    if (i < (potionsAvailable))
+                    {     //Have to subtract 1 because of array starting at 0
+                        potionImages[i].enabled = true;
+                    }
+                    else
+                    {
+                        potionImages[i].enabled = false;
+                    }
+                }
             }
-            //anim.ResetTrigger("Throw Potion");
+            else
+            {
+                //THis happens when there are no potions ready os it will just play an error sound
+                potionNotReady.Play();
+            }
+            
         }
 
         //Talking with NPCs
@@ -165,6 +198,28 @@ public class PlayerController : MonoBehaviour {
                 StartCoroutine(NPCtextDisplay());
             }
         }
+    }
+
+    private IEnumerator potionRecharge()
+    {
+        potionRechargeRunning = true;
+        int potionsNeeded = potionImages.Length - potionsAvailable; 
+        while (potionsNeeded > 0 )
+        {
+            yield return new WaitForSeconds(potionRechargeSec); // wait for recharge amount
+            potionsAvailable++;
+            potionsNeeded = potionImages.Length - potionsAvailable;
+            //Update Canvas when a potion becomes available
+            for (int i = 0; i < potionImages.Length; i++) // will enable the potion iamges when it is useable 
+            {
+                if (i < (potionsAvailable))
+                {     //Have to subtract 1 because of array starting at 0
+                    potionImages[i].enabled = true;
+                }
+            }
+            potionReady.Play(); //Plays the sound when a potion is ready
+        }
+        potionRechargeRunning = false;
     }
 
     private IEnumerator NPCtextDisplay()
