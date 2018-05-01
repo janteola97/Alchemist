@@ -1561,11 +1561,6 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224963618082516934, guid: 1677b48b5a54ed5468ad986b708a66bb,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1677b48b5a54ed5468ad986b708a66bb, type: 2}
   m_IsPrefabParent: 0
@@ -2529,10 +2524,6 @@ Prefab:
     - target: {fileID: 4872547887214786, guid: e4abda4231f479148a45e9a42cf696da, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960098965874578, guid: e4abda4231f479148a45e9a42cf696da, type: 2}
-      propertyPath: m_Name
-      value: Flying Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 114149457816381706, guid: e4abda4231f479148a45e9a42cf696da,
         type: 2}
