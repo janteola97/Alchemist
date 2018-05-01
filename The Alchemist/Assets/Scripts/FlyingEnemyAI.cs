@@ -16,6 +16,11 @@ public class FlyingEnemyAI : MonoBehaviour {
     private bool facingRight;
     private Vector3 lastPosition = Vector3.zero;
 
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     // most of this is reused from the dragon follow scipt, i think there is something that i could've done with subclasses to avoid this but eh
     void FixedUpdate () {
 		if(Vector2.Distance(player.position, transform.position) < detectionRange)
