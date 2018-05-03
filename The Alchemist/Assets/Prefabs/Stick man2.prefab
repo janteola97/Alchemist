@@ -35,6 +35,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 82823763388422134}
   - component: {fileID: 82238060361026846}
   - component: {fileID: 82665916664156074}
@@ -55,6 +56,8 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
   - component: {fileID: 114371633997027132}
@@ -116,6 +119,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
   - component: {fileID: 4654559208508878}
@@ -152,11 +156,14 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 2d624b8... this will make problems
   - component: {fileID: 4862411797113924}
   - component: {fileID: 199417344370375108}
   - component: {fileID: 198081951217603864}
   m_Layer: 0
   m_Name: Healing Effect
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +185,8 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 2d624b8... this will make problems
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -190,6 +199,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +248,11 @@ GameObject:
   m_Layer: 8
   m_Name: GroundCheck
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+  - component: {fileID: 4654559208508878}
+  m_Layer: 8
+  m_Name: GroundCheck
+>>>>>>> parent of 2d624b8... this will make problems
 =======
   - component: {fileID: 4654559208508878}
   m_Layer: 8
@@ -295,6 +310,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 4811751985082550}
   - {fileID: 4510230215834720}
 =======
@@ -319,6 +335,9 @@ Transform:
 =======
   - {fileID: 4862411797113924}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+  - {fileID: 4862411797113924}
+>>>>>>> parent of 2d624b8... this will make problems
 =======
   - {fileID: 4862411797113924}
 >>>>>>> parent of 2d624b8... this will make problems
@@ -624,7 +643,11 @@ AudioSource:
     m_RotationOrder: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!82 &82665916664156074
+=======
+--- !u!82 &82884624213748678
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 --- !u!82 &82884624213748678
 >>>>>>> parent of 2d624b8... this will make problems
@@ -713,10 +736,16 @@ AudioSource:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 --- !u!82 &82823763388422134
 AudioSource:
+=======
+--- !u!95 &95719688541262796
+Animator:
+  serializedVersion: 3
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 --- !u!95 &95719688541262796
 Animator:
@@ -727,6 +756,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1266628718679508}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -906,6 +936,8 @@ Animator:
   m_Enabled: 1
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 2d624b8... this will make problems
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2a763b3645d8e5e46b399e89ef07bee8, type: 2}
   m_CullingMode: 0
@@ -975,6 +1007,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   pauseMenu: {fileID: 0}
   artifactSoundPickUp: {fileID: 82665916664156074}
   artifactParticlePickUp: {fileID: 198816450342194346}
@@ -995,6 +1028,8 @@ MonoBehaviour:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
 --- !u!124 &124712066248608640
@@ -1228,6 +1263,7 @@ ParticleSystem:
           outSlope: 0
           tangentMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
         - serializedVersion: 2
           time: 1
           value: 1
@@ -1273,6 +1309,10 @@ ParticleSystem:
           tangentMode: 0
         - serializedVersion: 2
           time: 1
+=======
+        - serializedVersion: 2
+          time: 1
+>>>>>>> parent of 2d624b8... this will make problems
           value: 1
           inSlope: 0
           outSlope: 0
@@ -1285,6 +1325,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
           value: 1
           inSlope: 0
@@ -1318,10 +1359,13 @@ ParticleSystem:
 <<<<<<< HEAD
         - serializedVersion: 2
           time: 1
+=======
+>>>>>>> parent of 2d624b8... this will make problems
           value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+<<<<<<< HEAD
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -1338,6 +1382,9 @@ ParticleSystem:
 =======
         - serializedVersion: 2
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+        - serializedVersion: 2
+>>>>>>> parent of 2d624b8... this will make problems
           time: 1
           value: 1
           inSlope: 0
@@ -1346,6 +1393,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
     startRotationX:
       serializedVersion: 2
@@ -1359,11 +1407,19 @@ ParticleSystem:
       scalar: 1
       minScalar: 1
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+    startSizeY:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+>>>>>>> parent of 2d624b8... this will make problems
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 2
           time: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
           value: 0
           inSlope: 0
@@ -1419,6 +1475,15 @@ ParticleSystem:
         - serializedVersion: 2
           time: 1
           value: 0
+=======
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+>>>>>>> parent of 2d624b8... this will make problems
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -1431,6 +1496,7 @@ ParticleSystem:
         - serializedVersion: 2
           time: 0
           value: 1
+<<<<<<< HEAD
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -8079,6 +8145,11 @@ ParticleSystem:
         m_Curve:
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+>>>>>>> parent of 2d624b8... this will make problems
         - serializedVersion: 2
           time: 1
           value: 1
@@ -8742,12 +8813,15 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
           value: -1
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
+=======
+>>>>>>> parent of 2d624b8... this will make problems
           value: 1
           inSlope: 0
           outSlope: 0
@@ -8755,6 +8829,9 @@ ParticleSystem:
         - serializedVersion: 2
           time: 1
           value: 1
+<<<<<<< HEAD
+>>>>>>> parent of 2d624b8... this will make problems
+=======
 >>>>>>> parent of 2d624b8... this will make problems
           inSlope: 0
           outSlope: 0
@@ -8776,6 +8853,7 @@ ParticleSystem:
         key1: {r: 1, g: 1, b: 1, a: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         key2: {r: 1, g: 0.80784315, b: 0, a: 0}
         key3: {r: 1, g: 0, b: 0, a: 0}
 =======
@@ -8786,11 +8864,16 @@ ParticleSystem:
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+>>>>>>> parent of 2d624b8... this will make problems
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         ctime1: 25829
@@ -8806,11 +8889,17 @@ ParticleSystem:
         ctime2: 0
         ctime3: 0
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+>>>>>>> parent of 2d624b8... this will make problems
         ctime4: 0
         ctime5: 0
         ctime6: 0
         ctime7: 0
         atime0: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         atime1: 57054
@@ -8823,6 +8912,10 @@ ParticleSystem:
         atime1: 65535
         atime2: 0
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+        atime1: 65535
+        atime2: 0
+>>>>>>> parent of 2d624b8... this will make problems
         atime3: 0
         atime4: 0
         atime5: 0
@@ -8831,12 +8924,17 @@ ParticleSystem:
         m_Mode: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_NumColorKeys: 4
         m_NumAlphaKeys: 3
 =======
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+>>>>>>> parent of 2d624b8... this will make problems
 =======
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
@@ -11215,7 +11313,11 @@ ParticleSystem:
     vectorLabel1_3: W
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!198 &198903774694439020
+=======
+--- !u!198 &198646933875627904
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 --- !u!198 &198646933875627904
 >>>>>>> parent of 2d624b8... this will make problems
@@ -11488,6 +11590,12 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -11694,9 +11802,13 @@ ParticleSystem:
         - serializedVersion: 2
           time: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
           value: 1
+=======
+          value: 0
+>>>>>>> parent of 2d624b8... this will make problems
 =======
           value: 0
 >>>>>>> parent of 2d624b8... this will make problems
@@ -12157,13 +12269,19 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 2d624b8... this will make problems
         - serializedVersion: 2
           time: 1
           value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+<<<<<<< HEAD
+>>>>>>> parent of 2d624b8... this will make problems
+=======
 >>>>>>> parent of 2d624b8... this will make problems
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -12173,6 +12291,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
           value: -1
 <<<<<<< HEAD
@@ -12199,6 +12318,8 @@ ParticleSystem:
           value: 1
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
+=======
+>>>>>>> parent of 2d624b8... this will make problems
           value: 1
           inSlope: 0
           outSlope: 0
@@ -12206,6 +12327,9 @@ ParticleSystem:
         - serializedVersion: 2
           time: 1
           value: 1
+<<<<<<< HEAD
+>>>>>>> parent of 2d624b8... this will make problems
+=======
 >>>>>>> parent of 2d624b8... this will make problems
           inSlope: 0
           outSlope: 0
@@ -14628,6 +14752,7 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!199 &199075966587528976
 =======
 --- !u!199 &199417344370375108
@@ -14654,6 +14779,8 @@ ParticleSystemRenderer:
 =======
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!199 &199417344370375108
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -14661,6 +14788,7 @@ ParticleSystemRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1558205885237096}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -14684,6 +14812,8 @@ ParticleSystemRenderer:
 =======
   m_GameObject: {fileID: 1558205885237096}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
   m_Enabled: 1
@@ -14694,6 +14824,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14791,6 +14922,9 @@ ParticleSystemRenderer:
 =======
   - {fileID: 0}
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+  - {fileID: 0}
+>>>>>>> parent of 2d624b8... this will make problems
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -14818,6 +14952,7 @@ ParticleSystemRenderer:
   m_CameraVelocityScale: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_VelocityScale: -0.1
   m_LengthScale: -1
 =======
@@ -14837,11 +14972,16 @@ ParticleSystemRenderer:
   m_VelocityScale: 0
   m_LengthScale: 2
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+  m_VelocityScale: 0
+  m_LengthScale: 2
+>>>>>>> parent of 2d624b8... this will make problems
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14856,6 +14996,9 @@ ParticleSystemRenderer:
 =======
   m_VertexStreams: 00010304
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+  m_VertexStreams: 00010304
+>>>>>>> parent of 2d624b8... this will make problems
 =======
   m_VertexStreams: 00010304
 >>>>>>> parent of 2d624b8... this will make problems
@@ -14931,6 +15074,7 @@ ParticleSystemRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -14997,6 +15141,8 @@ ParticleSystemRenderer:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
 --- !u!212 &212983792601989124
