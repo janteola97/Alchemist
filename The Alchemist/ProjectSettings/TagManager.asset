@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - NPC
+<<<<<<< HEAD
+=======
+  - Dragon
+>>>>>>> parent of 0240a5b... artifact implemented, canvas changes
   layers:
   - Default
   - TransparentFX

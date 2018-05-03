@@ -162,7 +162,7 @@ public class dragonFollow : MonoBehaviour {
         }
 
         //if the dragon target dies, go back to the player
-        //Debug.Log(dragonTarget.name);
+        Debug.Log(dragonTarget.name);
         if (dragonAttacking && !dragonTarget.gameObject.activeSelf) 
         {
             dragonTarget = GameObject.FindGameObjectWithTag("Player").transform;

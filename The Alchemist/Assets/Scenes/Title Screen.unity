@@ -1531,9 +1531,7 @@ MonoBehaviour:
 
     Throw
 
-    Melee
-
-    Pause'
+    Melee'
 --- !u!222 &1600824643
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2104,9 +2102,7 @@ MonoBehaviour:
 
     F
 
-    Ctrl, Mouse1
-
-    Esc'
+    Ctrl, Mouse1'
 --- !u!222 &2120946932
 CanvasRenderer:
   m_ObjectHideFlags: 0
