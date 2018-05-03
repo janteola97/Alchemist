@@ -8740,7 +8740,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &623337421
+=======
+--- !u!114 &965747321 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114092194803611100, guid: 1677b48b5a54ed5468ad986b708a66bb,
+    type: 2}
+  m_PrefabInternal: {fileID: 599852314}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1001 &975524467
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -14.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183829931013464, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 114432525903008958, guid: 45e95dfa97db26b489c9d52c02773add,
+        type: 2}
+      propertyPath: NPCHead
+      value: 
+      objectReference: {fileID: 599852319}
+    - target: {fileID: 114999475634773162, guid: 45e95dfa97db26b489c9d52c02773add,
+        type: 2}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 292743423}
+    - target: {fileID: 114999475634773162, guid: 45e95dfa97db26b489c9d52c02773add,
+        type: 2}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 611813501}
+    - target: {fileID: 61139313828390938, guid: 45e95dfa97db26b489c9d52c02773add,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &976314881
+>>>>>>> parent of c0d7656... Merge branch 'master' of https://github.com/janteola97/Alchemist
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

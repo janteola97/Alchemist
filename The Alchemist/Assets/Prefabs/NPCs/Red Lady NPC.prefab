@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61930814252214896}
   - component: {fileID: 95006279142495938}
   - component: {fileID: 114757183868467426}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Red Lady NPC
   m_TagString: NPC
   m_Icon: {fileID: 0}
