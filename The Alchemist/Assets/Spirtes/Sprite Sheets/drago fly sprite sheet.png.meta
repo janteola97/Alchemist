@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 9b4bd070b482c4b31ab0a28c698baa9f
-timeCreated: 1508865101
-licenseType: Store
+guid: d77ad04c02e897744ba85da5ed760459
+timeCreated: 1525193361
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tilesets_0
-    21300002: Ground
-    21300004: Vertical Pillar
-    21300006: Horizontal Platform
-    21300008: Breakable
-    21300010: Red Platform
-    21300012: tilesets_1
-    21300014: Grass
-    21300016: Ceiling
+    21300000: drago fly sprite sheet_0
+    21300002: drago fly sprite sheet_1
+    21300004: drago fly sprite sheet_2
+    21300006: drago fly sprite sheet_3
+    21300008: drago fly sprite sheet_4
+    21300010: drago fly sprite sheet_5
+    21300012: drago fly sprite sheet_6
+    21300014: drago fly sprite sheet_7
+    21300016: drago fly sprite sheet_8
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -55,7 +55,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 5
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -66,7 +66,7 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -76,17 +76,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Standalone
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - buildTarget: WebGL
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -99,125 +89,125 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tilesets_0
+      name: drago fly sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 74
-        width: 22
-        height: 20
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Ground
+      name: drago fly sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 201
-        y: 4
-        width: 80
-        height: 88
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vertical Pillar
+      name: drago fly sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 288
-        y: 15
-        width: 32
-        height: 65
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Horizontal Platform
+      name: drago fly sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 159
-        width: 39
-        height: 17
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Breakable
+      name: drago fly sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 337
-        y: 33
-        width: 31
-        height: 30
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red Platform
+      name: drago fly sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 33
-        y: 161
-        width: 80
-        height: 15
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tilesets_1
+      name: drago fly sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 88
-        y: 60
-        width: 22
-        height: 12
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Grass
+      name: drago fly sprite sheet_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 49
-        width: 15
-        height: 42
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Ceiling
+      name: drago fly sprite sheet_8
       rect:
         serializedVersion: 2
-        x: 159
-        y: 119
-        width: 17
-        height: 26
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
