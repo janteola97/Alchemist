@@ -20,7 +20,10 @@ public class dragonFollow : MonoBehaviour {
     private bool grounded;
     private bool facingRight;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public AudioSource wingsFlap;
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 
@@ -110,6 +113,7 @@ public class dragonFollow : MonoBehaviour {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         //Sounds for wings flapping
         if (!grounded && !wingsFlap.isPlaying)
         {
@@ -128,6 +132,8 @@ public class dragonFollow : MonoBehaviour {
         {
             StartCoroutine(dragonAttack());
         }
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======

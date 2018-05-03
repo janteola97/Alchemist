@@ -46,9 +46,12 @@ GameObject:
   - component: {fileID: 82533131827267774}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 82823763388422134}
   - component: {fileID: 82238060361026846}
   - component: {fileID: 82665916664156074}
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -106,6 +109,7 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 4654559208508878}
   m_Layer: 8
   m_Name: GroundCheck
@@ -129,12 +133,17 @@ GameObject:
 =======
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
   - component: {fileID: 4862411797113924}
   - component: {fileID: 199417344370375108}
   - component: {fileID: 198081951217603864}
   m_Layer: 0
   m_Name: Healing Effect
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -152,11 +161,17 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 4811751985082550}
   - component: {fileID: 198903774694439020}
   - component: {fileID: 199340593379016562}
   m_Layer: 9
   m_Name: Healing Effect
+=======
+  - component: {fileID: 4654559208508878}
+  m_Layer: 8
+  m_Name: GroundCheck
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
   - component: {fileID: 4654559208508878}
   m_Layer: 8
@@ -226,8 +241,12 @@ Transform:
   - {fileID: 4571173162025642}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 4811751985082550}
   - {fileID: 4510230215834720}
+=======
+  - {fileID: 4862411797113924}
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
   - {fileID: 4862411797113924}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -358,6 +377,7 @@ AudioListener:
   m_Enabled: 1
 --- !u!82 &82533131827267774
 <<<<<<< HEAD
+<<<<<<< HEAD
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -438,6 +458,8 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 0
 --- !u!82 &82572219097340068
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 AudioSource:
@@ -601,6 +623,7 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!82 &82823763388422134
 AudioSource:
   m_ObjectHideFlags: 1
@@ -681,6 +704,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -836,9 +861,12 @@ MonoBehaviour:
   NPCwalkAwayText: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   pauseMenu: {fileID: 0}
   artifactSoundPickUp: {fileID: 82665916664156074}
   artifactParticlePickUp: {fileID: 198816450342194346}
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -1307,6 +1335,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+<<<<<<< HEAD
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -4671,6 +4700,8 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -5162,6 +5193,9 @@ ParticleSystem:
           value: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
           inSlope: 0
@@ -5181,7 +5215,11 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         key0: {r: 1, g: 1, b: 1, a: 1}
+=======
+        key0: {r: 1, g: 0, b: 0, a: 1}
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
         key0: {r: 1, g: 0, b: 0, a: 1}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -8472,6 +8510,7 @@ ParticleSystem:
         - serializedVersion: 2
           time: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
           value: -1
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -11303,10 +11342,13 @@ ParticleSystem:
           tangentMode: 0
         - serializedVersion: 2
           time: 1
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
           value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+<<<<<<< HEAD
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -11786,6 +11828,11 @@ ParticleSystem:
         - serializedVersion: 2
           time: 0
           value: -1
+=======
+        - serializedVersion: 2
+          time: 1
+          value: 1
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
         - serializedVersion: 2
           time: 1
@@ -14207,7 +14254,11 @@ ParticleSystem:
         m_RotationOrder: 4
     vectorLabel1_3: W
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!199 &199075966587528976
+=======
+--- !u!199 &199417344370375108
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 --- !u!199 &199417344370375108
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -14217,6 +14268,7 @@ ParticleSystemRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1011276389198470}
 =======
 --- !u!199 &199417344370375108
@@ -14225,6 +14277,9 @@ ParticleSystemRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1558205885237096}
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
   m_GameObject: {fileID: 1558205885237096}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -14240,7 +14295,11 @@ ParticleSystemRenderer:
   m_Materials:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 42bc46fc022af47dc8e0896dc58f47c6, type: 2}
+=======
+  - {fileID: 0}
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
   - {fileID: 0}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -14359,6 +14418,7 @@ ParticleSystemRenderer:
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!199 &199628375310308938
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -14413,6 +14473,8 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 --- !u!212 &212983792601989124

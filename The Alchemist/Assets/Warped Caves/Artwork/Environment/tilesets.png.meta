@@ -14,6 +14,8 @@ TextureImporter:
     21300014: Grass
     21300016: Ceiling
     21300018: Breakable Ground Grass
+    21300020: Mushrooms
+    21300022: Left Head
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -233,6 +235,34 @@ TextureImporter:
         y: 64
         width: 16
         height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mushrooms
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Left Head
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 112
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
