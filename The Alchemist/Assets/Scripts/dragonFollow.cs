@@ -20,6 +20,9 @@ public class dragonFollow : MonoBehaviour {
     private bool grounded;
     private bool facingRight;
 
+    [Header("For dragon attack")]
+    public float dragonDamage = 20f;
+
     [Header("For The Hunger")]
     public Slider dragonHungerMeter;
     public Image sliderFIllImage;
@@ -29,6 +32,8 @@ public class dragonFollow : MonoBehaviour {
     private bool dragonHungry;
     private float currentHungerTimer;
     private bool isFlashing;
+    public bool dragonAttacking;
+    private bool dragonAttackInAnim;
 
     public void Start()
     {
@@ -36,7 +41,7 @@ public class dragonFollow : MonoBehaviour {
         //for the dragon hungry mechanic
         currentHungerTimer = initialHungerTimer;
         dragonHungerMeter.maxValue = initialHungerTimer;
-        dragonHungry = true;
+        dragonHungry = false; // we aren't using this mechanic :(
 
         lastPosition = Vector3.zero;    //For dragon animator
     }
@@ -91,8 +96,6 @@ public class dragonFollow : MonoBehaviour {
             //if the dagon is in range of the player but in the air, it will slowly fall down
             Vector3 tempVector = new Vector3(transform.position.x, transform.position.y - dragonFallSpeed);
             transform.position = Vector3.MoveTowards(transform.position, tempVector, dragonSpeed/4);
-
-            
         }
 
 
@@ -104,6 +107,19 @@ public class dragonFollow : MonoBehaviour {
         {
             flip();
         }
+
+        //if the dragon target dies, go back to the player
+        Debug.Log(dragonTarget.name);
+        if (dragonAttacking && !dragonTarget.gameObject.activeSelf) 
+        {
+            dragonTarget = GameObject.FindGameObjectWithTag("Player").transform;
+            toggleAttackEnemy();
+        }
+        //attack enemy if the bool is true and the dragon is in range, and if it is not already attacking
+        if (dragonAttacking && Vector3.Distance(transform.position, dragonTarget.position) < distanceFromPlayer && !dragonAttackInAnim)
+        {
+            StartCoroutine(dragonAttack());
+        }
     }
 
 
@@ -114,5 +130,22 @@ public class dragonFollow : MonoBehaviour {
         theScale.x *= -1;
         transform.localScale = theScale;
 
+    }
+
+    private IEnumerator dragonAttack()
+    {
+        dragonAttackInAnim = true;
+        anim.SetBool("Attacking", true);
+        yield return new WaitForSeconds(1);
+        dragonTarget.GetComponent<EnemyHealth>().enemyTakeDamage(dragonDamage);
+        anim.SetBool("Attacking", false);
+        dragonAttackInAnim = false;
+    }
+
+    //might not really need this method
+    public void toggleAttackEnemy()
+    {
+        //already assign dragon target in playercontroller
+        dragonAttacking = !dragonAttacking;
     }
 }

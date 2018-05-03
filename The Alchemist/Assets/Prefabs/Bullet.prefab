@@ -185,11 +185,11 @@ MonoBehaviour:
     type: 2}
   potionHitWall: {fileID: 1489661732834022, guid: 64f2b6351a8160144b04b64200f758ff,
     type: 2}
-  potionHitBreakable: {fileID: 0}
   potionRadius: 2
   potionMask:
     serializedVersion: 2
     m_Bits: 4294967039
+  potionHitBreakable: {fileID: 0}
   potionBreak: {fileID: 82051151524659062}
 --- !u!212 &212163988315748780
 SpriteRenderer:
@@ -224,7 +224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 68cd0bd788227c34893278a59d5cbaf8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

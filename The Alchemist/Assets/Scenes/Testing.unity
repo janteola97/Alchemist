@@ -1561,6 +1561,24 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1177602673243030, guid: 1677b48b5a54ed5468ad986b708a66bb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858309297839376, guid: 1677b48b5a54ed5468ad986b708a66bb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236153096474508, guid: 1677b48b5a54ed5468ad986b708a66bb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114064586014997010, guid: 1677b48b5a54ed5468ad986b708a66bb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1677b48b5a54ed5468ad986b708a66bb, type: 2}
   m_IsPrefabParent: 0
@@ -2247,6 +2265,11 @@ Prefab:
       propertyPath: meleeAttack1Knockback
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114371633997027132, guid: 8af530d96ecb49c4ab20fd6380dffb58,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 872543710}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8af530d96ecb49c4ab20fd6380dffb58, type: 2}
   m_IsPrefabParent: 0
