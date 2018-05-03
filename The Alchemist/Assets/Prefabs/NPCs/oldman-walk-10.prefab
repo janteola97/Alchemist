@@ -152,11 +152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - Back in my day I use to go all over the place looking for rare treasure!
-  - I miss my youth, but we can't stop getting old can we?
-  - 'Be careful with that cave out in the forest. There''s a lot of nasty creatures
-    in there. '
-  - Can't jump like I use to.
+  - Hello
+  - Bye
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
   NPCRdyToTalk: {fileID: 114693813305534474}

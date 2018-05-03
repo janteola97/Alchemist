@@ -97,11 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - Alchemist, how are you doing today?
-  - Thanks for healing my son from that fever.
-  - I don't know what this town would do without you helping out.
-  - You take care of everyone else, but make sure to watch your own health!
-  - Keep up the great work, Alchemist!
+  - Hello
+  - Bye
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
   NPCRdyToTalk: {fileID: 0}

@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
     bool facingRight = true; //This really needed to be called facing left or something (everything is backwards)
 
     Animator anim;
+    GameObject dragon;
 
     //For jump
     [Header("For Jump")]
@@ -28,6 +29,12 @@ public class PlayerController : MonoBehaviour {
     private bool dead = false;
     public Text healthPackCounter;
     public ParticleSystem healingEffect;
+    public Slider healthBar;
+    private Image healthBarImage;
+    public float flashSpeed = .4f;
+    private bool isFlashing;
+    public AudioSource playerHitSound;
+    public AudioSource playerEating;
 
     //melee attack 1 (Binded to "Fire1" which is mouse1 and Ctrl 
     [Header("For melee attack 1 (on mouse1 and crtl")]
@@ -81,6 +88,8 @@ public class PlayerController : MonoBehaviour {
         currentHealthPacks = startingHealthPacks;
         healthPackCounter.text = currentHealthPacks.ToString();
         //NPCNextDialogueAvaible.enabled = false;   // Doing this in the NPCNManager now
+        healthBarImage = healthBar.gameObject.transform.GetChild(1).GetChild(0).GetComponent<Image>();
+        dragon = GameObject.FindGameObjectWithTag("Dragon");
 	}
 	
 
@@ -133,6 +142,7 @@ public class PlayerController : MonoBehaviour {
                 //Need to update canvas stuff here as well
                 healthPackCounter.text = currentHealthPacks.ToString();
                 healingEffect.Play();
+                playerEating.Play();
             }
 
             //attempting melee1 again
@@ -162,6 +172,13 @@ public class PlayerController : MonoBehaviour {
                         melee1HitEffect.Play();
                         //Tried to make the melee attack knockback the enemy but kinda doesn't work on the flying enemy because of how i coded movement(i think)
                         //melee1Detect[i].transform.GetComponent<Rigidbody2D>().AddForce(transform.right * meleeAttack1Knockback);
+
+                        //for dragon attacking
+                        if (!dragon.GetComponent<dragonFollow>().dragonAttacking)
+                        {
+                            dragon.GetComponent<dragonFollow>().dragonTarget = melee1Detect[i].transform;
+                            dragon.GetComponent<dragonFollow>().toggleAttackEnemy();
+                        }
                     }
                 }
             }
@@ -381,13 +398,36 @@ public class PlayerController : MonoBehaviour {
 
     public void playerTakeDamage(float damage)
     {
+        //Debug.Log("took damage: " + damage);
         currentHealth -= damage;
+        if(damage > 0)
+        {
+            playerHitSound.Play(); //if the player isn't healing...
+        }
 
         if(currentHealth <= 0 && !dead)
         {
             dead = true;
             onDeath();
         }
+        healthBar.value = currentHealth;
+
+        if (currentHealth < (startingHealth * .25) && !isFlashing) // if the player is under 25% health, and the health bar isn't already flashing, go to the coroutine to start flashin
+        {
+            StartCoroutine(FlashHealthBar());
+        }
+    }
+
+    private IEnumerator FlashHealthBar()
+    {
+        isFlashing = true;
+        while (currentHealth < (startingHealth * .25))
+        {
+            healthBarImage.enabled = !healthBarImage.IsActive(); //makes the thing flash
+            yield return new WaitForSeconds(flashSpeed);
+        }
+        healthBarImage.enabled = true; // incase you catch it when it is toggled off
+        isFlashing = false;
     }
 
     public void togglePause()
