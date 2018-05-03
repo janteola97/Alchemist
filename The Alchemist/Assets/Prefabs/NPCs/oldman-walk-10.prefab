@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 114693813305534474}
   m_Layer: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Old man Next Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,6 +79,8 @@ GameObject:
   - component: {fileID: 222760854211643606}
   - component: {fileID: 114295469827848776}
   m_Layer: 5
+=======
+>>>>>>> parent of c0d7656... Merge branch 'master' of https://github.com/janteola97/Alchemist
 =======
 >>>>>>> parent of c0d7656... Merge branch 'master' of https://github.com/janteola97/Alchemist
   m_Name: Old man Next Dialogue
