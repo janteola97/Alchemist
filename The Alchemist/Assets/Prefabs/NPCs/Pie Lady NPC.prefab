@@ -96,12 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c03edfcb62be3fc4a8931f0ace030f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-  - Need some pies for the road?
-  - My pies are the best in town!
-  - Pies are good for your health!
-  - My pie counts are always off I wonder where they went?
-  - I heard theres a special ingredient in the Cave, but I can't use it for pies!
+  dialogue: []
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
   NPCRdyToTalk: {fileID: 0}

@@ -233,11 +233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - I wish we could stay young forever.
-  - Getting old is no fun.
-  - Do you think the philosopher's stone is real?
-  - I can't believe you found an ingredient for the philosopher's stone!
-  - 'Is it true that you need 4 ingredients to create it? '
+  - 
+  - 
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
   NPCRdyToTalk: {fileID: 114442161210452814}

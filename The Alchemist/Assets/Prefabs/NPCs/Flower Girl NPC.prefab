@@ -97,11 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - I can't believe you found a dragon outside the city!
-  - Who would have thought that this little baby dragon was the one scaring everyone.
-  - You said the dragon was all alone when you found it? Poor thing.
-  - 'Wonder if the dragon had parents too. '
-  - Only you are capable of having a dragon as a friend!
+  - 
+  - 
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
   NPCRdyToTalk: {fileID: 0}
