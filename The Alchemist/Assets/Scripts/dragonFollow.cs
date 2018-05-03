@@ -19,6 +19,7 @@ public class dragonFollow : MonoBehaviour {
     private float groundRadius = .2f;
     private bool grounded;
     private bool facingRight;
+    public AudioSource wingsFlap;
 
     [Header("For dragon attack")]
     public float dragonDamage = 20f;
@@ -106,6 +107,11 @@ public class dragonFollow : MonoBehaviour {
         else if ((transform.position - dragonTarget.position).x < 0 && facingRight)
         {
             flip();
+        }
+        //Sounds for wings flapping
+        if (!grounded && !wingsFlap.isPlaying)
+        {
+            wingsFlap.Play();
         }
 
         //if the dragon target dies, go back to the player

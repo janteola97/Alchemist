@@ -20,7 +20,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Effects
   - 
   - 
   - 
@@ -46,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Effects
+    uniqueID: 1514794583
     locked: 0

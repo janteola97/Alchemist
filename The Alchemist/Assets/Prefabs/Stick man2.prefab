@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4510230215834720}
   - component: {fileID: 198816450342194346}
   - component: {fileID: 199075966587528976}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: VfxBrightStars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 4664716559133556}
   - component: {fileID: 198562385696713998}
   - component: {fileID: 199695933955863194}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: StarsFourPointsWhite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 4811751985082550}
   - component: {fileID: 198903774694439020}
   - component: {fileID: 199340593379016562}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Healing Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1266628718679508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47, y: 2.58, z: 0}
+  m_LocalPosition: {x: -24.739998, y: 3.6, z: 0}
   m_LocalScale: {x: -0.2638562, y: 0.2638562, z: 0.2638562}
   m_Children:
   - {fileID: 4654559208508878}
@@ -231,7 +231,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1363192559805678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: -1.5000001}
+  m_LocalPosition: {x: -42.3, y: 21.2, z: -1.5000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4819626380429566}
@@ -257,7 +257,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4240,7 +4240,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -2044596631
+  randomSeed: -1759773255
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7601,7 +7601,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1781729450
+  randomSeed: 1676815416
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10855,7 +10855,7 @@ ParticleSystem:
   lengthInSec: 6
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   useUnscaledTime: 0
@@ -10905,7 +10905,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 887509677
+  randomSeed: 1475596311
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14166,7 +14166,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 30
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -14220,7 +14220,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 30
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -14380,7 +14380,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 30
   m_Sprite: {fileID: 21300000, guid: 46a33b2e3bc61f240bdc568d835a2c9e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
