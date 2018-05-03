@@ -6379,11 +6379,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 55
       objectReference: {fileID: 0}
-    - target: {fileID: 114432525903008958, guid: 45e95dfa97db26b489c9d52c02773add,
-        type: 2}
-      propertyPath: NPCHead
-      value: 
-      objectReference: {fileID: 599852319}
     - target: {fileID: 114999475634773162, guid: 45e95dfa97db26b489c9d52c02773add,
         type: 2}
       propertyPath: waypoints.Array.data[0]
@@ -6394,11 +6389,11 @@ Prefab:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 611813501}
-    - target: {fileID: 61139313828390938, guid: 45e95dfa97db26b489c9d52c02773add,
+    - target: {fileID: 114432525903008958, guid: 45e95dfa97db26b489c9d52c02773add,
         type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: NPCHead
+      value: 
+      objectReference: {fileID: 599852319}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
   m_IsPrefabParent: 0

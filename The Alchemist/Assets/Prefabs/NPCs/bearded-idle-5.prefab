@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212970482545271984}
   - component: {fileID: 95581613148704990}
   - component: {fileID: 114272595281193538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bearded-idle-5
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
