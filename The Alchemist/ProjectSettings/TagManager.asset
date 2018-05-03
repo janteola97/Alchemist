@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - NPC
+<<<<<<< HEAD
   - Health Pack
   - Enemy
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
   layers:
   - Default
   - TransparentFX
