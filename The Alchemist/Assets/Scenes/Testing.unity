@@ -1555,11 +1555,7 @@ Prefab:
         type: 2}
       propertyPath: m_AnchorMax.x
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 0
-=======
-      value: 1
->>>>>>> 45b54348bbde17dcddbc24869ac277935b0f9df7
 =======
       value: 1
 >>>>>>> 45b54348bbde17dcddbc24869ac277935b0f9df7
@@ -1568,11 +1564,7 @@ Prefab:
         type: 2}
       propertyPath: m_AnchorMax.y
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 0
-=======
-      value: 1
->>>>>>> 45b54348bbde17dcddbc24869ac277935b0f9df7
 =======
       value: 1
 >>>>>>> 45b54348bbde17dcddbc24869ac277935b0f9df7
