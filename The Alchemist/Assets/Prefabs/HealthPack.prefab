@@ -39,6 +39,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 70.8, y: -10.96, z: -0.0625}
 =======
   m_LocalPosition: {x: -7.46, y: -1.34, z: -0.0625}
@@ -52,6 +53,9 @@ Transform:
 =======
   m_LocalPosition: {x: 70.8, y: -10.96, z: -0.0625}
 >>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
+=======
+  m_LocalPosition: {x: 70.8, y: -10.96, z: -0.0625}
+>>>>>>> parent of 5fa5f41... idk why
   m_LocalScale: {x: 17.9777, y: 17.977688, z: 17.977688}
   m_Children: []
   m_Father: {fileID: 0}
@@ -118,6 +122,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SortingOrder: 5
 =======
   m_SortingOrder: 0
@@ -131,6 +136,9 @@ SpriteRenderer:
 =======
   m_SortingOrder: 5
 >>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
+=======
+  m_SortingOrder: 5
+>>>>>>> parent of 5fa5f41... idk why
   m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

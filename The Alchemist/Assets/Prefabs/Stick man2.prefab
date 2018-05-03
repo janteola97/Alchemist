@@ -37,6 +37,9 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
   - component: {fileID: 82823763388422134}
@@ -47,6 +50,7 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -69,6 +73,8 @@ GameObject:
 >>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 0240a5b... artifact implemented, canvas changes
+=======
+>>>>>>> parent of 5fa5f41... idk why
   - component: {fileID: 114371633997027132}
   m_Layer: 8
   m_Name: Stick man2
@@ -130,8 +136,11 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
   - component: {fileID: 4654559208508878}
@@ -156,6 +165,7 @@ GameObject:
   m_Name: StarsFourPointsWhite
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -176,11 +186,17 @@ GameObject:
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 >>>>>>> parent of 5fa5f41... idk why
+=======
+=======
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
   - component: {fileID: 4862411797113924}
   - component: {fileID: 199417344370375108}
   - component: {fileID: 198081951217603864}
   m_Layer: 0
   m_Name: Healing Effect
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +222,11 @@ GameObject:
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -233,8 +254,11 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
   - component: {fileID: 4811751985082550}
@@ -244,6 +268,7 @@ GameObject:
   m_Name: Healing Effect
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
@@ -258,17 +283,23 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 <<<<<<< HEAD
 =======
+>>>>>>> parent of 5fa5f41... idk why
+=======
   - component: {fileID: 4654559208508878}
   m_Layer: 8
   m_Name: GroundCheck
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
+<<<<<<< HEAD
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
+=======
+>>>>>>> parent of 5fa5f41... idk why
   - component: {fileID: 4654559208508878}
   m_Layer: 8
   m_Name: GroundCheck
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 =======
   - component: {fileID: 4654559208508878}
   m_Layer: 8
@@ -289,6 +320,8 @@ GameObject:
   m_Layer: 8
   m_Name: GroundCheck
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
   m_TagString: Untagged
@@ -345,6 +378,9 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
   - {fileID: 4811751985082550}
@@ -355,6 +391,7 @@ Transform:
 =======
   - {fileID: 4862411797113924}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   - {fileID: 4862411797113924}
@@ -383,6 +420,8 @@ Transform:
 >>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 0240a5b... artifact implemented, canvas changes
+=======
+>>>>>>> parent of 5fa5f41... idk why
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -512,8 +551,11 @@ AudioListener:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 AudioSource:
@@ -598,6 +640,7 @@ AudioSource:
 --- !u!82 &82572219097340068
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -606,6 +649,8 @@ AudioSource:
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
@@ -694,6 +739,9 @@ AudioSource:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 --- !u!82 &82665916664156074
@@ -790,12 +838,15 @@ AudioSource:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 0240a5b... artifact implemented, canvas changes
+=======
+>>>>>>> parent of 5fa5f41... idk why
 --- !u!82 &82823763388422134
 AudioSource:
 =======
@@ -890,6 +941,7 @@ Animator:
     m_RotationOrder: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -900,6 +952,8 @@ Animator:
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
@@ -1069,6 +1123,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   pauseMenu: {fileID: 0}
   artifactSoundPickUp: {fileID: 82665916664156074}
   artifactParticlePickUp: {fileID: 198816450342194346}
@@ -1104,6 +1159,15 @@ MonoBehaviour:
 >>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 0240a5b... artifact implemented, canvas changes
+=======
+  pauseMenu: {fileID: 0}
+  artifactSoundPickUp: {fileID: 82665916664156074}
+  artifactParticlePickUp: {fileID: 198816450342194346}
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 --- !u!124 &124712066248608640
 Behaviour:
   m_ObjectHideFlags: 1
@@ -1337,6 +1401,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         - serializedVersion: 2
@@ -1398,6 +1465,12 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -1409,6 +1482,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
           value: 1
@@ -1442,10 +1518,15 @@ ParticleSystem:
           tangentMode: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - serializedVersion: 2
           time: 1
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+        - serializedVersion: 2
+          time: 1
+>>>>>>> parent of 5fa5f41... idk why
 =======
         - serializedVersion: 2
           time: 1
@@ -1456,6 +1537,9 @@ ParticleSystem:
           tangentMode: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         m_PreInfinity: 2
@@ -1472,12 +1556,15 @@ ParticleSystem:
           tangentMode: 0
         - serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         - serializedVersion: 2
 >>>>>>> parent of 2d624b8... this will make problems
 =======
         - serializedVersion: 2
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
           time: 1
@@ -1491,6 +1578,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
     startRotationX:
@@ -1519,6 +1609,12 @@ ParticleSystem:
           time: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
           value: 0
           inSlope: 0
           outSlope: 0
@@ -1597,6 +1693,12 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -1611,6 +1713,12 @@ ParticleSystem:
           outSlope: 0
           tangentMode: 0
 <<<<<<< HEAD
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
         - serializedVersion: 2
           time: 1
           value: 0
@@ -1640,6 +1748,7 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           inSlope: 0
           outSlope: 0
@@ -1650,6 +1759,8 @@ ParticleSystem:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
           inSlope: 0
@@ -1688,6 +1799,7 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     maxNumParticles: 1000
 <<<<<<< HEAD
 =======
@@ -1705,6 +1817,9 @@ ParticleSystem:
 =======
     maxNumParticles: 1000
 >>>>>>> parent of 5fa5f41... idk why
+=======
+    maxNumParticles: 1000
+>>>>>>> parent of 5fa5f41... idk why
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -1719,8 +1834,11 @@ ParticleSystem:
           time: 0
           value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> parent of 5fa5f41... idk why
+=======
 >>>>>>> parent of 5fa5f41... idk why
           inSlope: 0
           outSlope: 0
@@ -1905,6 +2023,11 @@ ParticleSystem:
           time: 1
           value: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 =======
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -1929,8 +2052,11 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
           inSlope: 0
@@ -2039,10 +2165,13 @@ ParticleSystem:
           value: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
           inSlope: 0
@@ -2127,8 +2256,11 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
       minCurve:
@@ -2187,12 +2319,15 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+<<<<<<< HEAD
         - serializedVersion: 2
           time: 1
           value: 0
           inSlope: 0
           outSlope: 0
           tangentMode: 0
+=======
+>>>>>>> parent of 5fa5f41... idk why
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -2744,6 +2879,9 @@ ParticleSystem:
     enabled: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
     x:
@@ -5607,12 +5745,15 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
@@ -5638,6 +5779,7 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         key0: {r: 1, g: 1, b: 1, a: 1}
 =======
         key0: {r: 1, g: 0, b: 0, a: 1}
@@ -5648,6 +5790,9 @@ ParticleSystem:
 =======
         key0: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+        key0: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> parent of 5fa5f41... idk why
 =======
         key0: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> parent of 5fa5f41... idk why
@@ -9049,6 +9194,7 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
           value: -1
@@ -9068,6 +9214,11 @@ ParticleSystem:
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+          value: -1
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 =======
           value: -1
 =======
@@ -9096,6 +9247,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         key2: {r: 1, g: 0.80784315, b: 0, a: 0}
@@ -9105,6 +9259,7 @@ ParticleSystem:
         key3: {r: 0, g: 0, b: 0, a: 0}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
@@ -9113,6 +9268,8 @@ ParticleSystem:
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -9124,6 +9281,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         ctime1: 25829
@@ -9135,6 +9295,7 @@ ParticleSystem:
         ctime3: 0
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         ctime1: 65535
         ctime2: 0
@@ -9147,6 +9308,8 @@ ParticleSystem:
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of 5fa5f41... idk why
         ctime4: 0
         ctime5: 0
         ctime6: 0
@@ -9156,6 +9319,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         atime1: 57054
@@ -9185,6 +9351,7 @@ ParticleSystem:
         atime2: 0
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         atime1: 65535
         atime2: 0
@@ -9193,6 +9360,8 @@ ParticleSystem:
         atime1: 65535
         atime2: 0
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         atime3: 0
@@ -9206,6 +9375,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
         m_NumColorKeys: 4
@@ -9214,6 +9386,7 @@ ParticleSystem:
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         m_NumColorKeys: 2
@@ -9229,6 +9402,8 @@ ParticleSystem:
         m_NumColorKeys: 8
         m_NumAlphaKeys: 2
 >>>>>>> parent of 0240a5b... artifact implemented, canvas changes
+=======
+>>>>>>> parent of 5fa5f41... idk why
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -11606,6 +11781,9 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 --- !u!198 &198903774694439020
@@ -12593,6 +12771,9 @@ ParticleSystem:
           value: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
@@ -12600,6 +12781,7 @@ ParticleSystem:
           time: 1
           value: 1
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         - serializedVersion: 2
@@ -12632,6 +12814,8 @@ ParticleSystem:
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
           inSlope: 0
@@ -15057,6 +15241,7 @@ ParticleSystem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 5fa5f41... idk why
 --- !u!199 &199075966587528976
@@ -15091,11 +15276,18 @@ ParticleSystemRenderer:
 --- !u!199 &199417344370375108
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+--- !u!199 &199075966587528976
+=======
+--- !u!199 &199417344370375108
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 ParticleSystemRenderer:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1558205885237096}
 <<<<<<< HEAD
@@ -15115,6 +15307,9 @@ ParticleSystemRenderer:
   m_GameObject: {fileID: 1011276389198470}
 >>>>>>> parent of 5fa5f41... idk why
 =======
+  m_GameObject: {fileID: 1011276389198470}
+>>>>>>> parent of 5fa5f41... idk why
+=======
 --- !u!199 &199417344370375108
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -15127,10 +15322,13 @@ ParticleSystemRenderer:
   m_GameObject: {fileID: 1558205885237096}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
   m_Enabled: 1
@@ -15150,6 +15348,7 @@ ParticleSystemRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 5fa5f41... idk why
   - {fileID: 2100000, guid: 42bc46fc022af47dc8e0896dc58f47c6, type: 2}
@@ -15171,6 +15370,12 @@ ParticleSystemRenderer:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+  - {fileID: 2100000, guid: 42bc46fc022af47dc8e0896dc58f47c6, type: 2}
+=======
+  - {fileID: 0}
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -15186,6 +15391,7 @@ ParticleSystemRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SelectedEditorRenderState: 0
 =======
   m_SelectedEditorRenderState: 3
@@ -15193,6 +15399,9 @@ ParticleSystemRenderer:
 =======
   m_SelectedEditorRenderState: 3
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+  m_SelectedEditorRenderState: 3
+>>>>>>> parent of 5fa5f41... idk why
 =======
   m_SelectedEditorRenderState: 3
 >>>>>>> parent of 5fa5f41... idk why
@@ -15215,8 +15424,13 @@ ParticleSystemRenderer:
   m_CameraVelocityScale: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_VelocityScale: -0.1
   m_LengthScale: -1
+=======
+  m_VelocityScale: 0
+  m_LengthScale: 2
+>>>>>>> parent of 5fa5f41... idk why
 =======
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -15265,6 +15479,9 @@ ParticleSystemRenderer:
 =======
   - {fileID: 0}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
+>>>>>>> parent of 5fa5f41... idk why
+=======
 >>>>>>> parent of 5fa5f41... idk why
   - {fileID: 0}
   m_StaticBatchInfo:
@@ -15279,13 +15496,19 @@ ParticleSystemRenderer:
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SelectedEditorRenderState: 3
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
   m_SelectedEditorRenderState: 0
 =======
   m_SelectedEditorRenderState: 3
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
+>>>>>>> parent of 5fa5f41... idk why
+=======
 >>>>>>> parent of 5fa5f41... idk why
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -15294,9 +15517,12 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SortingOrder: 0
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
   m_SortingOrder: 30
 >>>>>>> parent of 5fa5f41... idk why
   m_RenderMode: 0
@@ -15310,6 +15536,7 @@ ParticleSystemRenderer:
   m_VelocityScale: -0.1
   m_LengthScale: -1
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -15407,6 +15634,8 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of 5fa5f41... idk why
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -15431,6 +15660,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15447,6 +15677,9 @@ ParticleSystemRenderer:
 =======
 --- !u!199 &199628375310308938
 >>>>>>> parent of 5fa5f41... idk why
+=======
+--- !u!199 &199628375310308938
+>>>>>>> parent of 5fa5f41... idk why
 ParticleSystemRenderer:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -15501,6 +15734,7 @@ ParticleSystemRenderer:
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -15512,6 +15746,10 @@ ParticleSystemRenderer:
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 =======
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah

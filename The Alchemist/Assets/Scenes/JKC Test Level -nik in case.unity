@@ -6525,13 +6525,19 @@ Prefab:
       value: 
       objectReference: {fileID: 874651591}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
+=======
+>>>>>>> parent of 5fa5f41... idk why
     - target: {fileID: 224983695628442250, guid: 45e95dfa97db26b489c9d52c02773add,
         type: 2}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 5fa5f41... idk why
+=======
 >>>>>>> parent of 5fa5f41... idk why
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
