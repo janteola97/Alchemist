@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Health Pack
+<<<<<<< HEAD
+=======
+  - Breakable
+  - NPC
+>>>>>>> parent of 2d624b8... this will make problems
   layers:
   - Default
   - TransparentFX
@@ -15,7 +20,11 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - 
+=======
+  - Player
+>>>>>>> parent of 2d624b8... this will make problems
   - 
   - 
   - 

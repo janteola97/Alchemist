@@ -18,6 +18,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 --- !u!1 &1145627695874550
@@ -75,6 +76,8 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!1 &1177602673243030
 GameObject:
   m_ObjectHideFlags: 1
@@ -92,6 +95,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +129,8 @@ GameObject:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!1 &1236153096474508
 GameObject:
   m_ObjectHideFlags: 1
@@ -151,6 +157,7 @@ GameObject:
   - component: {fileID: 222117215488361598}
   - component: {fileID: 114463541823730156}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: 'Blue Lady NPC head '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,6 +200,9 @@ GameObject:
   - component: {fileID: 114163195499234402}
   m_Layer: 5
   m_Name: Old man NPC head
+=======
+  m_Name: Temp NPC head
+>>>>>>> parent of 2d624b8... this will make problems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,23 +235,6 @@ GameObject:
   - component: {fileID: 114092194803611100}
   m_Layer: 5
   m_Name: Potion 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1435253956024032
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224328328378443210}
-  - component: {fileID: 222970389399550102}
-  - component: {fileID: 114011015687268904}
-  m_Layer: 5
-  m_Name: Red Lady NPC head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,6 +313,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1661527506958404
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +376,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!1 &1729392203201824
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +467,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 9
 =======
   m_RootOrder: 4
@@ -493,34 +490,10 @@ Transform:
 =======
   m_RootOrder: 4
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+  m_RootOrder: 4
+>>>>>>> parent of 2d624b8... this will make problems
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114011015687268904
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1435253956024032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: aff31a8cb2a9be64eab504acb9594f29, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
 --- !u!114 &114064586014997010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -575,6 +548,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 60dd066b0150b94418ffa5aa75930e48, type: 3}
+<<<<<<< HEAD
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -658,6 +632,8 @@ MonoBehaviour:
 =======
   m_Sprite: {fileID: 21300000, guid: 60dd066b0150b94418ffa5aa75930e48, type: 3}
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -726,6 +702,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: New Text
 --- !u!114 &114438478159045508
+<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -816,25 +793,27 @@ MonoBehaviour:
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 --- !u!114 &114502792930431026
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1194217196882642}
+  m_GameObject: {fileID: 1177602673243030}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -842,12 +821,12 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114615255842187616
+--- !u!114 &114463541823730156
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687884390809982}
+  m_GameObject: {fileID: 1339071284912266}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -861,7 +840,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 81fcaf609b7d8d142bc6b38af27c27c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8c11ae905508f7546882b714f25a45ab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -869,6 +848,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
 --- !u!114 &114693347388709412
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -932,6 +912,8 @@ MonoBehaviour:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!114 &114730146176684264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1077,33 +1059,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114989326661767324
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1145627695874550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ae934fdf301dc7a4c9e88b277d4b9048, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
 --- !u!222 &222031391265479666
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1128,18 +1083,13 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1824236547737094}
---- !u!222 &222274399483099124
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1700062641148798}
 --- !u!222 &222342695524834230
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1564409773203728}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1182,6 +1132,8 @@ CanvasRenderer:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!222 &222479244969020702
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1194,6 +1146,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1639761626357770}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,24 +1183,14 @@ CanvasRenderer:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!222 &222726845270157290
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1455850861276436}
---- !u!222 &222737561648539938
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1399533375353286}
---- !u!222 &222970389399550102
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1435253956024032}
 --- !u!223 &223774287823059116
 Canvas:
   m_ObjectHideFlags: 1
@@ -1268,42 +1211,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &224028080810546112
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1661527506958404}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224955944174501474}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05, y: 0.025}
-  m_AnchorMax: {x: 0.23, y: 0.35}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: -25.299988, y: -32.299988}
-  m_Pivot: {x: 0, y: 0}
---- !u!224 &224032636596697698
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1399533375353286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.000006, y: 1.000006, z: 1.000006}
-  m_Children: []
-  m_Father: {fileID: 224955944174501474}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05, y: 0.025}
-  m_AnchorMax: {x: 0.23, y: 0.35}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: -25.299988, y: -32.299988}
-  m_Pivot: {x: 0, y: 0}
 --- !u!224 &224111808086275812
 RectTransform:
   m_ObjectHideFlags: 1
@@ -1317,10 +1224,10 @@ RectTransform:
   m_Father: {fileID: 224955944174501474}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.29, y: 0.05}
-  m_AnchorMax: {x: 0.98, y: 0.35}
-  m_AnchoredPosition: {x: -4, y: -54}
-  m_SizeDelta: {x: 4.5, y: 36.299988}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -42, y: 0}
+  m_SizeDelta: {x: 1326.5, y: 360.3}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &224134606394674816
 RectTransform:
@@ -1365,17 +1272,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1339071284912266}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.000006, y: 1.000006, z: 1.000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224955944174501474}
-  m_RootOrder: 8
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05, y: 0.025}
-  m_AnchorMax: {x: 0.23, y: 0.35}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: -25.299988, y: -32.299988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 119, y: 27}
+  m_SizeDelta: {x: 318.7, y: 318.7}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224214646093612706
 RectTransform:
@@ -1395,6 +1302,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1493,6 +1401,8 @@ RectTransform:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!224 &224442168257860542
 RectTransform:
   m_ObjectHideFlags: 1
@@ -1534,6 +1444,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 --- !u!224 &224784698685195592
@@ -1565,6 +1476,8 @@ RectTransform:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+>>>>>>> parent of 2d624b8... this will make problems
 --- !u!224 &224812331929992084
 RectTransform:
   m_ObjectHideFlags: 1
@@ -1613,12 +1526,6 @@ RectTransform:
   m_Children:
   - {fileID: 224847109849864870}
   - {fileID: 224111808086275812}
-  - {fileID: 224028080810546112}
-  - {fileID: 224370585589276592}
-  - {fileID: 224784698685195592}
-  - {fileID: 224032636596697698}
-  - {fileID: 224980850609003024}
-  - {fileID: 224328328378443210}
   - {fileID: 224182352803855224}
   - {fileID: 224963618082516934}
   - {fileID: 4131056078011990}
@@ -1650,6 +1557,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 10
 =======
   m_RootOrder: 3
@@ -1672,27 +1580,12 @@ RectTransform:
 =======
   m_RootOrder: 3
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+=======
+  m_RootOrder: 3
+>>>>>>> parent of 2d624b8... this will make problems
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 327.8, y: 41}
   m_Pivot: {x: 1, y: 1}
---- !u!224 &224980850609003024
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1145627695874550}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.000006, y: 1.000006, z: 1.000006}
-  m_Children: []
-  m_Father: {fileID: 224955944174501474}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05, y: 0.025}
-  m_AnchorMax: {x: 0.23, y: 0.35}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: -25.299988, y: -32.299988}
-  m_Pivot: {x: 0, y: 0}

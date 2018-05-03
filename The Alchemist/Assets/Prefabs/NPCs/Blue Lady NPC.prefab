@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 223834996113184544}
   - component: {fileID: 114590805986519014}
   - component: {fileID: 114669763860311606}
-  - component: {fileID: 95163391017523532}
   m_Layer: 5
   m_Name: Canvas-World Space Blue Lady
   m_TagString: Untagged
@@ -74,8 +73,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1869190395652420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.38, y: -3.26, z: 0}
-  m_LocalScale: {x: -0.33839267, y: 0.33839267, z: 0.33839267}
+  m_LocalPosition: {x: -24.71, y: 6.943798, z: 0}
+  m_LocalScale: {x: -0.5441399, y: 0.5441399, z: 0.5441399}
   m_Children:
   - {fileID: 224989483131746556}
   m_Father: {fileID: 0}
@@ -106,23 +105,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.5045667, y: 7.34886}
   m_EdgeRadius: 0
---- !u!95 &95163391017523532
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1174214066879018}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a1870dad33cb1504c904bda084e778d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &95471209294284290
 Animator:
   serializedVersion: 3
@@ -176,7 +158,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1ef2faf4b7e1b5048a6cb77f5ad0ec13, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d20aea24aca2f0f4ebaa863acf37bc33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -306,7 +288,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &224572499773565418
 RectTransform:
@@ -323,7 +305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53, y: 3.75}
+  m_AnchoredPosition: {x: 0.07, y: 3.75}
   m_SizeDelta: {x: 3.13, y: 3.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224989483131746556

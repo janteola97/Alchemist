@@ -273,9 +273,7 @@ MonoBehaviour:
 
     Throw
 
-    Melee
-
-    Pause'
+    Melee'
 --- !u!114 &114188461335662794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -619,9 +617,7 @@ MonoBehaviour:
 
     F
 
-    Ctrl, Mouse1
-
-    Esc'
+    Ctrl, Mouse1'
 --- !u!114 &114910838086063568
 MonoBehaviour:
   m_ObjectHideFlags: 1
