@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Enemy
+  - Health Pack
+  - Breakable
+  - NPC
+<<<<<<< HEAD
+  - Dragon
+  - Artifact
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of d2d2013... Merge conflicts
   layers:
   - Default
   - TransparentFX

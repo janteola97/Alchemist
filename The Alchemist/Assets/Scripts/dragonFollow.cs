@@ -28,6 +28,7 @@ public class dragonFollow : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public AudioSource wingsFlap;
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -40,6 +41,9 @@ public class dragonFollow : MonoBehaviour {
     [Header("For dragon attack")]
     public float dragonDamage = 20f;
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+    public AudioSource wingsFlap;
+>>>>>>> parent of d2d2013... Merge conflicts
 
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -158,12 +162,15 @@ public class dragonFollow : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
 >>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of d2d2013... Merge conflicts
         //Sounds for wings flapping
         if (!grounded && !wingsFlap.isPlaying)
         {
@@ -211,9 +218,12 @@ public class dragonFollow : MonoBehaviour {
 =======
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of d2d2013... Merge conflicts
     }
 
 
