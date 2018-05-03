@@ -81,6 +81,7 @@ public class dragonFollow : MonoBehaviour {
         //Debug.Log(speed);
 
         grounded = Physics2D.OverlapCircle(dragonGroundCheck.position, groundRadius, whatIsGround);
+        anim.SetBool("Grounded", grounded);
 
         if (Vector3.Distance(transform.position, dragonTarget.position) > distanceFromPlayer){
             transform.position = Vector3.MoveTowards(transform.position, dragonTarget.position, step);
