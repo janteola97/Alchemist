@@ -3,13 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
-  tags: []
-=======
   tags:
-  - Enemy
-  - Health Pack
->>>>>>> parent of 5fa5f41... idk why
+  - NPC
   layers:
   - Default
   - TransparentFX
