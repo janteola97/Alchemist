@@ -78,6 +78,10 @@ public class PlayerController : MonoBehaviour {
     [Tooltip("The whole Canvas")]public Canvas pauseMenu;
     private bool isPaused;
 
+    [Header("For Artifact")]
+    public AudioSource artifactSoundPickUp;
+    public ParticleSystem artifactParticlePickUp;
+
     void Start () {
         anim = GetComponent<Animator>();
         currentHealth = startingHealth;
@@ -361,6 +365,12 @@ public class PlayerController : MonoBehaviour {
             {
                 NPCNextDialogueAvaible.enabled = true;
             }
+        }
+        else if (collision.tag == "Artifact")
+        {
+            artifactParticlePickUp.Play();
+            artifactSoundPickUp.Play(); // Could've instantiated it, but it's late
+            Destroy(collision.gameObject);
         }
     }
 

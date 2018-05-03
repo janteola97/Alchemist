@@ -9,6 +9,7 @@ TagManager:
   - Breakable
   - NPC
   - Dragon
+  - Artifact
   layers:
   - Default
   - TransparentFX
