@@ -6508,6 +6508,7 @@ Transform:
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &495243212
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -6757,6 +6758,9 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: cd862fcb7c208f44b83f68e9c12294c1, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &663700502
+=======
+--- !u!1 &882738111
+>>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

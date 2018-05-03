@@ -8,6 +8,7 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -16,6 +17,8 @@ TextureImporter:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
   fileIDToRecycleName:
     21300000: tilesets_0
     21300002: Ground
@@ -34,6 +37,7 @@ TextureImporter:
     21300020: Mushrooms
     21300022: Left Head
   externalObjects: {}
+<<<<<<< HEAD
 =======
   fileIDToRecycleName: {}
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
@@ -49,6 +53,8 @@ TextureImporter:
 =======
   externalObjects: {}
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -137,6 +143,7 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -145,6 +152,8 @@ TextureImporter:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
     sprites:
     - serializedVersion: 2
       name: tilesets_0
@@ -330,6 +339,7 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     sprites: []
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
@@ -341,6 +351,8 @@ TextureImporter:
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 5fa5f41... idk why
+=======
+>>>>>>> parent of 8898e0e... Merge branch 'master' of https://github.com/janteola97/Alchemist
     outline: []
     physicsShape: []
   spritePackingTag: 
