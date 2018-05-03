@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114520858750920732}
   m_Layer: 8
   m_Name: Dragon
-  m_TagString: Dragon
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   m_Layer: 8
   m_Name: Dragon Ground Check
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -53,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1530208176218068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.19, z: 0}
+  m_LocalPosition: {x: 0, y: -2.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4121706227637332}
@@ -209,14 +209,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967039
   dragonFallSpeed: 0.1
+<<<<<<< HEAD
   wingsFlap: {fileID: 82202480700428450}
   dragonDamage: 20
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
   dragonHungerMeter: {fileID: 0}
   sliderFIllImage: {fileID: 0}
   initialHungerTimer: 60
   percentageToFlash: 0.25
   flashSpeed: 0.3
-  dragonAttacking: 0
 --- !u!212 &212591472075145550
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -251,7 +253,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 57710dce697f6b74fba1dc377605064b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f38c09a9c3fafd2498b409918e0e90ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

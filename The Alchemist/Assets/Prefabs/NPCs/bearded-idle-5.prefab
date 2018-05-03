@@ -71,8 +71,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - Hello
-  - Bye
+  - That pie lady sure makes some good pies!
+  - I feel the life come back into me after I eat one of those!
+  - You should try them yourself!
+  - Be careful of 'em critters out in the forest, they like to gather around the cave
+  - Talk to you later.
   randomizeDialogue: 0
   NPCHead: {fileID: 0}
   NPCRdyToTalk: {fileID: 0}
