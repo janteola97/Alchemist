@@ -26,6 +26,7 @@ public class dragonFollow : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public AudioSource wingsFlap;
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
@@ -49,6 +50,11 @@ public class dragonFollow : MonoBehaviour {
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+    public AudioSource wingsFlap;
+=======
+>>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+>>>>>>> parent of 5fa5f41... idk why
 
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
     [Header("For The Hunger")]
@@ -144,8 +150,11 @@ public class dragonFollow : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+>>>>>>> parent of 5fa5f41... idk why
         //Sounds for wings flapping
         if (!grounded && !wingsFlap.isPlaying)
         {
@@ -165,10 +174,14 @@ public class dragonFollow : MonoBehaviour {
             StartCoroutine(dragonAttack());
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5fa5f41... idk why
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
@@ -183,6 +196,8 @@ public class dragonFollow : MonoBehaviour {
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
     }
 
 

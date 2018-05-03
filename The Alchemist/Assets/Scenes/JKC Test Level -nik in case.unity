@@ -3804,12 +3804,12 @@ Prefab:
     - target: {fileID: 114673514930568056, guid: f3ea44421812c1e4ebe7debd6c3c1ac2,
         type: 2}
       propertyPath: dialogue.Array.data[0]
-      value: Hello
+      value: I wish we could stay young forever.
       objectReference: {fileID: 0}
     - target: {fileID: 114673514930568056, guid: f3ea44421812c1e4ebe7debd6c3c1ac2,
         type: 2}
       propertyPath: dialogue.Array.data[1]
-      value: This is wrong head Sorry
+      value: Getting old is no fun.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3ea44421812c1e4ebe7debd6c3c1ac2, type: 2}
@@ -5715,7 +5715,7 @@ Prefab:
     - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
         type: 2}
       propertyPath: dialogue.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4866960997743224, guid: ad2c01daa5426414e8c020dd58fda743, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5783,12 +5783,28 @@ Prefab:
     - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
         type: 2}
       propertyPath: dialogue.Array.data[0]
-      value: Hello
+      value: Need some pies for the road?
       objectReference: {fileID: 0}
     - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
         type: 2}
       propertyPath: dialogue.Array.data[1]
-      value: Bye
+      value: My pies are the best in town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
+        type: 2}
+      propertyPath: dialogue.Array.data[2]
+      value: Pies are good for your health!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
+        type: 2}
+      propertyPath: dialogue.Array.data[3]
+      value: My pie counts are always off I wonder where they went?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114740823986081368, guid: ad2c01daa5426414e8c020dd58fda743,
+        type: 2}
+      propertyPath: dialogue.Array.data[4]
+      value: I heard theres a special ingredient in the Cave, but I can't use it for
+        pies!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad2c01daa5426414e8c020dd58fda743, type: 2}
@@ -6508,7 +6524,15 @@ Prefab:
       propertyPath: NPCRdyToTalk
       value: 
       objectReference: {fileID: 874651591}
+<<<<<<< HEAD
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
+=======
+    - target: {fileID: 224983695628442250, guid: 45e95dfa97db26b489c9d52c02773add,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+>>>>>>> parent of 5fa5f41... idk why
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}
   m_IsPrefabParent: 0
@@ -6978,12 +7002,13 @@ Prefab:
     - target: {fileID: 114431070833999806, guid: 8207f7e1e8e40a5478f45c7a6a0de1e9,
         type: 2}
       propertyPath: dialogue.Array.data[0]
-      value: Hello
+      value: I can't believe you found a dragon outside the city!
       objectReference: {fileID: 0}
     - target: {fileID: 114431070833999806, guid: 8207f7e1e8e40a5478f45c7a6a0de1e9,
         type: 2}
       propertyPath: dialogue.Array.data[1]
-      value: Bye
+      value: Who would have thought that this little baby dragon was the one scaring
+        everyone.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8207f7e1e8e40a5478f45c7a6a0de1e9, type: 2}

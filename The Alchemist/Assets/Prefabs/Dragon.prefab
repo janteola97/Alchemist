@@ -137,6 +137,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   wingsFlap: {fileID: 82202480700428450}
   dragonDamage: 20
 =======
@@ -150,15 +151,22 @@ MonoBehaviour:
   dragonDamage: 20
 >>>>>>> be68db2f52a29dfa15941fc8e3a94909d8e6e066
 =======
+  wingsFlap: {fileID: 82202480700428450}
+  dragonDamage: 20
+>>>>>>> parent of 5fa5f41... idk why
+=======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 54667b5... ***This will probably break any "cave levels" you're working on.....Bunch of updated stuff, sorry i forgot about this github thing because yeah
 =======
 >>>>>>> parent of 2d624b8... this will make problems
 =======
 >>>>>>> parent of 2d624b8... this will make problems
+=======
+>>>>>>> parent of 5fa5f41... idk why
   dragonHungerMeter: {fileID: 0}
   sliderFIllImage: {fileID: 0}
   initialHungerTimer: 60
