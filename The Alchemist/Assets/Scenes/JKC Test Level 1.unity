@@ -6364,10 +6364,10 @@ Prefab:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 611813501}
-    - target: {fileID: 223180352592878176, guid: 45e95dfa97db26b489c9d52c02773add,
+    - target: {fileID: 61139313828390938, guid: 45e95dfa97db26b489c9d52c02773add,
         type: 2}
-      propertyPath: m_SortingOrder
-      value: 40
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45e95dfa97db26b489c9d52c02773add, type: 2}

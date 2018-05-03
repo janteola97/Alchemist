@@ -9,4 +9,9 @@ public class sceneLoadManager : MonoBehaviour {
     {
         SceneManager.LoadScene(1);
     }
+
+    public void loadCave()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
